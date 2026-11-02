@@ -40,6 +40,24 @@ class ToolTests(unittest.TestCase):
             (app / 'Info.plist').write_bytes(plistlib.dumps(info))
             with self.assertRaises(ValueError): module('package_ipa').package(app, output)
 
+    def test_declarative_catalog_and_font_notice(self):
+        self.assertEqual(module('inspect_apk').category('assets/fonts/OFL.txt'), 'license-candidate')
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            apk = root / 'fixture.apk'
+            with ZipFile(apk, 'w') as archive:
+                archive.writestr('assets/effects/example.xml', '<effect id="test" name="Example" category="color"><presets><preset id="one"/></presets></effect>')
+                archive.writestr('assets/presets/example.jpg', b'preview only')
+                archive.writestr('assets/templates/example.novatemplate', '{"id":"example","nome":"Example","duracaoUs":1000000}')
+                archive.writestr('assets/effects/broken.xml', '<broken')
+            module('catalog_apk').catalog(apk, root / 'report')
+            result = json.loads((root / 'report/catalog-summary.json').read_text())
+            self.assertEqual(result['effect_xml_parsed'], 1)
+            self.assertEqual(result['nested_preset_elements'], 1)
+            self.assertEqual(result['preset_directory_extensions'], {'.jpg': 1})
+            self.assertEqual(result['templates_parsed'], 1)
+            self.assertEqual(len(result['failures']), 1)
+
     def test_inventory_does_not_approve_licenses(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

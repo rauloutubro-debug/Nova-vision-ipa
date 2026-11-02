@@ -3,14 +3,14 @@
 ## Resultado desta entrega
 
 - Ambiente disponível: Linux, Python 3; sem Swift, Xcode ou SDK iOS.
-- Testes Python das ferramentas: **2 testes passaram** em 2026-11-02, usando fixtures sintéticas (nenhum APK/IPA real).
+- Testes Python das ferramentas: **3 testes passaram** em 2026-11-02, usando fixtures sintéticas (nenhum APK/IPA real).
 - Fontes Swift, compilação Xcode, renderização AVFoundation, testes macOS, instalação ESign e execução iOS: **não executados neste ambiente**.
 - APK: **inspeção estática realizada**, com contagens e avisos documentados em [APK-REPORT](APK-REPORT.md). Telas e funções Android não foram verificadas em execução; escopo de direitos por recurso permanece pendente.
 - iOS 17.0 é o alvo mínimo configurado; não é comprovação de compatibilidade em dispositivos.
 
 ## Verificações automáticas preparadas
 
-`python3 -m unittest discover -s Tests -p 'test_*.py'` usa fixtures sintéticas para verificar estrutura ZIP/IPA, permissões executáveis, exclusão de assinaturas/perfis na cópia, rejeição de builds de simulador, inventário APK e bloqueio de reutilização sem licença. O teste não prova que um binário seja instalável.
+`python3 -m unittest discover -s Tests -p 'test_*.py'` usa fixtures sintéticas para verificar estrutura ZIP/IPA, permissões executáveis, exclusão de assinaturas/perfis na cópia, rejeição de builds de simulador, inventário APK e bloqueio de reutilização sem licença. Há também teste de catálogo declarativo com XML válido/inválido, templates, imagens de presets e detecção de OFL.txt. Os testes não provam que um binário seja instalável.
 
 `bash Scripts/test_media.sh`, em macOS com Xcode, compila as mesmas classes de timeline, composição e renderização usadas pelo app. Verifica divisão com início não zero, IDs, reordenação, durações inválidas e serialização. Gera vídeos sintéticos sem áudio, compõe trechos com filtros, exporta em paisagem/retrato e verifica duração, dimensões e pixels decodificados do primeiro quadro em preto e branco. A renderização de sépia passa pela exportação, mas o teste não compara sua cor. Não testa orientação visual de conteúdo assimétrico, áudio, preview SwiftUI ou execução iOS.
 
