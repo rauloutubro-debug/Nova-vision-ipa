@@ -57,6 +57,6 @@ enum TimelineError: LocalizedError {
 extension Array where Element == TimelineClip {
     var totalDuration: Double { reduce(0) { $0 + $1.duration } }
     func offset(of id: UUID) -> Double {
-        prefix(while: { $0.id != id }).totalDuration
+        prefix(while: { $0.id != id }).reduce(0) { $0 + $1.duration }
     }
 }
