@@ -1,0 +1,16 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+__pycache__/
+*.pyc
+*.apk
+*.ipa
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.mobileprovision
+analysis/
