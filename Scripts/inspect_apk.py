@@ -16,7 +16,7 @@ def category(name):
     if suffix == '.so': return 'native-library'
     if suffix in {'.ttf', '.otf', '.woff', '.woff2'}: return 'font'
     if suffix in {'.onnx', '.tflite', '.pt', '.pth', '.bin'}: return 'possible-model-or-binary'
-    if any(word in lower for word in ('license', 'licence', 'notice', 'copying')): return 'license-candidate'
+    if Path(lower).name in {'ofl.txt', 'copyright', 'copyright.txt'} or any(word in lower for word in ('license', 'licence', 'notice', 'copying')): return 'license-candidate'
     if any(word in lower for word in ('preset', 'effect', 'template', 'shader', 'vhs', 'glitch', 'rife')): return 'effect-preset-template-candidate'
     if suffix in {'.py', '.pyc', '.js'}: return 'script'
     return 'other'

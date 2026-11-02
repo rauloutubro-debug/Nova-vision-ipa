@@ -1,0 +1,346 @@
+path,id,title,category,root,sha256,preset_elements,license_status
+assets/effects/add-grain.xml,nova.effect.addgrain,Adicionar grão (Add Grain),stylize,effect,641d29c88ae66371833f6b6f0d52d6a16805e92d29979606258083b391fb9e60,0,needs-file-specific-scope-review
+assets/effects/ae-4-color-gradient.xml,nova.effect.ae4colorgradient,4-Color Gradient (AE),procedural,effect,e124c47a919767084fba0152f6f3c8be97ea3e382522fdf558d3d11d7275089b,0,needs-file-specific-scope-review
+assets/effects/ae-angle-control.xml,nova.effect.aeanglecontrol,Angle Control,expressao,effect,863a7459e7c24c578c7cb0d84db6eb78e9271292c9d500b05990bc4ba42cf6e3,0,needs-file-specific-scope-review
+assets/effects/ae-apply-color-lut.xml,nova.effect.aeapplycolorlut,Apply Color LUT,color,effect,a621f8e50da720feb34a44133e239833967a208dcc70779be279e1543e1eefdf,0,needs-file-specific-scope-review
+assets/effects/ae-audio-spectrum.xml,nova.effect.aeaudiospectrum,Audio Spectrum (AE),procedural,effect,059f669e39c19c475ee005fbfac3dc59690006491d928eb26b0d244f98c5571f,0,needs-file-specific-scope-review
+assets/effects/ae-audio-waveform.xml,nova.effect.aeaudiowaveform,Audio Waveform (AE),procedural,effect,ded1fbec0edf99a8cfaef93e67c43ba1219686966a03bf63ecfae652fac903cb,0,needs-file-specific-scope-review
+assets/effects/ae-checkbox-control.xml,nova.effect.aecheckboxcontrol,Checkbox Control,expressao,effect,1ca20d93fd02a37681803efb3fad9d90ccf3ec6994b180a65cdfd8c1461da83a,0,needs-file-specific-scope-review
+assets/effects/ae-color-control.xml,nova.effect.aecolorcontrol,Color Control,expressao,effect,d28b25ddc8d373d549861f7fe022740067bc852d6c1139c35d1e72ae64b2eb5b,0,needs-file-specific-scope-review
+assets/effects/ae-directional-blur.xml,nova.effect.aedirectionalblur,Directional Blur (AE),blur,effect,f93a9b6a6cf854a6cb820820ff796111ded3ed3aac58bf775965257dcf99cfb0,0,needs-file-specific-scope-review
+assets/effects/ae-displacement-map.xml,nova.effect.aedisplacementmap,Displacement Map (AE),distort,effect,f29157c55713897c905e52829ddd9cf6efd2744b7de9c5215b8fc5f609d2ba8d,0,needs-file-specific-scope-review
+assets/effects/ae-drop-shadow.xml,nova.effect.aedropshadow,Drop Shadow (AE),stylize,effect,044924eb2f63faea5ed42a1883a57ecce1caab9b277cf155f22a08dde9d9e97c,0,needs-file-specific-scope-review
+assets/effects/ae-element-3d.xml,nova.effect.aeelement,Element 3D,stylize,effect,cbfbfd2c8f04d4322e5b7b29b27185057f49a915936b0557fc47af80d6738132,5,needs-file-specific-scope-review
+assets/effects/ae-fill.xml,nova.effect.aefill,Fill (AE),color,effect,95d493aadf35e68d3e87041a9608a1bf3d6ec9f3d9b41431d150b0ca97209a47,0,needs-file-specific-scope-review
+assets/effects/ae-hue-saturation.xml,nova.effect.aehuesat,Hue/Saturation (AE),color,effect,13eb09148766c1e37acff8b4a3794fca91929a30a4192a9a5377e28e1af44560,0,needs-file-specific-scope-review
+assets/effects/ae-invert.xml,nova.effect.aeinvert,Invert (AE),color,effect,c780bb1d6e6847fea05c139a1d35be703fb5bbd879d753a82d70f1ccc440a971,0,needs-file-specific-scope-review
+assets/effects/ae-levels.xml,nova.effect.aelevels,Levels (AE),color,effect,ec3d58d6f32cc31c6650b10d3e042f83b6dd3a3f12fb6087b7346b657c425039,0,needs-file-specific-scope-review
+assets/effects/ae-linear-wipe.xml,nova.effect.aelinearwipe,Linear Wipe (AE),matte,effect,bbb479bc09452bc692bc9c206c7eb5958704d9ee5ed603be1f9635ec3e71469d,0,needs-file-specific-scope-review
+assets/effects/ae-lumetri.xml,nova.effect.aelumetri,Lumetri Color,color,effect,96632e7a8720db01bd8aebffbaac61e49b495c2167d4dd74e8f47e945ef8967d,0,needs-file-specific-scope-review
+assets/effects/ae-mesh-warp.xml,nova.effect.aemeshwarp,Mesh Warp (AE),distort,effect,b9d31340043d17ba4e1d6221af4c1eae309578989bb02385dd561f29c2bfcfed,0,needs-file-specific-scope-review
+assets/effects/ae-optical-flares.xml,nova.effect.aeopticalflares,Optical Flares,generate,effect,5207f7b2ed865ca750743e7789cccb8ed4913a992b8118ac1ae13ced9defa314,0,needs-file-specific-scope-review
+assets/effects/ae-optics-compensation.xml,nova.effect.aeoptics,Optics Compensation (AE),distort,effect,76a46054c92605ddd5a098191c5204c6f8e81ba547da5aa6d2b92e1cc3be73af,0,needs-file-specific-scope-review
+assets/effects/ae-point-control.xml,nova.effect.aepointcontrol,Point Control,expressao,effect,007420d474758e6895cb0ae71b1ea7c6bec83df3e8abcdece80761c344d055ad,0,needs-file-specific-scope-review
+assets/effects/ae-radial-blur.xml,nova.effect.aeradialblur,Radial Blur (AE),blur,effect,567731881570e4a331c81831ae2b8f7371ec550a739c2677d61031093dba884a,0,needs-file-specific-scope-review
+assets/effects/ae-slider-control.xml,nova.effect.aeslidercontrol,Slider Control,expressao,effect,fee69348bced2c7252b300ffc91c5aedad2fce7048e1cb526d47c8a3519f1cbc,0,needs-file-specific-scope-review
+assets/effects/ae-tint.xml,nova.effect.aetint,Tint (AE),color,effect,f7c28b0b8ce8f24ef7d9fa872489b7257efc6dfcf390f21791a5a3ddcd96cbd7,0,needs-file-specific-scope-review
+assets/effects/ae-tritone.xml,nova.effect.aetritone,Tritone (AE),color,effect,c637fd4f13461f316b669c6e20bb16a3eaf3f486e60e58167430b1b5a9606f10,0,needs-file-specific-scope-review
+assets/effects/ae-twirl.xml,nova.effect.aetwirl,Twirl (AE),distort,effect,bbb979d080e897e4eab43a42e49db5dcd9b146b36bbf2f7343ce909413624a00,0,needs-file-specific-scope-review
+assets/effects/ae-upscale.xml,nova.effect.aeupscale,Detail-preserving Upscale (AE),blur,effect,1a838a13529198b9ab1437be814d6b85a7d9a9f26367ebe8fb3273a2ad2b13e6,0,needs-file-specific-scope-review
+assets/effects/ae-vibrance.xml,nova.effect.aevibrance,Vibrance (AE),color,effect,ec857233873c6c6040f51fc47e895a1587b3b1b3582168bfa02984793c846ad4,0,needs-file-specific-scope-review
+assets/effects/ae-warp.xml,nova.effect.aewarp,Warp (AE),distort,effect,28f908171bd87fc0df295e1e0c1687997954673085394672889bead2fc243c33,0,needs-file-specific-scope-review
+assets/effects/ae-wave-warp.xml,nova.effect.aewavewarp,Wave Warp (AE),distort,effect,b504ba3636510a716cee3b30e0901ba1accba0cc39c076b34a5034d05d925de1,0,needs-file-specific-scope-review
+assets/effects/ae-yy-ramp.xml,nova.effect.yyramp,YY_Ramp+,procedural,effect,c4d2b2d04d81dd4e6215348397be77ab6c3ca24dd8bbada690afc2272af78240,0,needs-file-specific-scope-review
+assets/effects/am-auto-shake.xml,nova.effect.am-auto-shake,Agitação automática,distort,effect,9b482d5121fcae86257ac03c2d791e0c3248ce9eddebe1583ab1322b6666c5c3,0,needs-file-specific-scope-review
+assets/effects/am-blink-legacy.xml,nova.effect.am-blink-legacy,Piscar (antigo),opacity,effect,12154f173559e997208eacab46e878fc27d80e8df09b0cafdcd6e0436727614d,0,needs-file-specific-scope-review
+assets/effects/am-blink.xml,nova.effect.am-blink,Piscar,opacity,effect,ea2c65e25735233ef8eeea8649b9b6dc990b2b3588d6b26fd00d701c42d496b4,0,needs-file-specific-scope-review
+assets/effects/am-block-dissolve-legacy.xml,nova.effect.am-block-dissolve-legacy,Dissolver o bloco (antigo),matte,effect,2e49e9515fa5a27d2c6ad31e65b154602f7ddf8a36d8931d99bad88c34703693,0,needs-file-specific-scope-review
+assets/effects/am-block-dissolve.xml,nova.effect.am-block-dissolve,Dissolver o bloco,matte,effect,5429fe22e1cbcf9bb0e832ae6c7abfce88249d6ecea720c70d81501264129167,0,needs-file-specific-scope-review
+assets/effects/am-box.xml,nova.effect.am-box,Caixa,3d,effect,a595ca1e40abf4224754f8c30d92361578e9f53b4abfe27f51cab6525f15f2f5,0,needs-file-specific-scope-review
+assets/effects/am-brightness-contrast.xml,nova.effect.am-brightness-contrast,Brilho/contraste (AM),color,effect,655516468ea14a1760a9c0bbdaa5ecf8401cfa2fd1d1492807c28e2d0ddab24f,0,needs-file-specific-scope-review
+assets/effects/am-color-balance.xml,nova.effect.am-color-balance,Equilíbrio de cor,color,effect,be901380d9b202dd2e55c8cf382e5f1b22c4b517f45f4d55d107e3dc207227ff,0,needs-file-specific-scope-review
+assets/effects/am-color-temperature.xml,nova.effect.am-color-temperature,Temperatura de cor (AM),color,effect,79b4ab9554848d4634d19d22e615e8e6805b78227e92c982eab898d2035bf452,0,needs-file-specific-scope-review
+assets/effects/am-colorize.xml,nova.effect.am-colorize,Colorizar,color,effect,7abf9be40a860f0ba2e32f67061c3562c6bd39be71813cd121babac1ff3fe2e7,0,needs-file-specific-scope-review
+assets/effects/am-contour-gradient.xml,nova.effect.am-contour-gradient,Gradiente de contorno,stylize,effect,3a857399886d0efc23004368d0ca179154863463dc7ab09b867ee26447a0545c,0,needs-file-specific-scope-review
+assets/effects/am-contour-lines.xml,nova.effect.am-contour-lines,Linhas de contorno,stylize,effect,bf3c688dac81fbf10af89b0045e55fa2205c2cf91975fabb3942db9c6317097e,0,needs-file-specific-scope-review
+assets/effects/am-copy-background.xml,nova.effect.am-copy-background,Copiar fundo,stylize,effect,fe53f76be31a4bba27e94f30bee9d06b8684106d93d36d4e5fdd5a22169cedca,0,needs-file-specific-scope-review
+assets/effects/am-displacement-map-legacy.xml,nova.effect.am-displacement-map-legacy,Mapa de deslocamento (versão 1),distort,effect,c857eb8248429410386a64f4da6117c00ebfa796470e4ce133fa3fb6d707a92d,0,needs-file-specific-scope-review
+assets/effects/am-displacement-map.xml,nova.effect.am-displacement-map,Mapa de deslocamento,distort,effect,6215a7075dd549f8396b8c22cecdbde99df5e3f6328f540c920c4d2ca129103e,0,needs-file-specific-scope-review
+assets/effects/am-drawing-progress.xml,nova.effect.am-drawing-progress,Avanço do desenho,stylize,effect,4a2f2f7b122a4d9f4a465ef64b5782dfd23da42b1c8982b1762c46c9b1fd9ff0,0,needs-file-specific-scope-review
+assets/effects/am-edge-glow.xml,nova.effect.am-edge-glow,Brilho de Borda,stylize,effect,465fbb46133779f2b8b3590e80d29e56b6c35c9cab648803a30b96131dbbed7a,0,needs-file-specific-scope-review
+assets/effects/am-exposure.xml,nova.effect.am-exposure,Exposição/gama,color,effect,16ce6c737f2294f1f4db4ccaf331f97dc53b563bb7d53352283938d7e0088d61,0,needs-file-specific-scope-review
+assets/effects/am-feather.xml,nova.effect.am-feather,Pena,matte,effect,bda2c03a9a8c36145f43cbc0c7121d0bf56a78f4d6bb843da7b66a8c9f7421a1,0,needs-file-specific-scope-review
+assets/effects/am-fill-behind.xml,nova.effect.am-fill-behind,Preencher Atrás,stylize,effect,d22fab3fe357c0174c0eb9cb7f192cc1f6a32305de9b97b0a4a4b44a09186999,0,needs-file-specific-scope-review
+assets/effects/am-flicker-legacy.xml,nova.effect.am-flicker-legacy,Cintilação (antiga),opacity,effect,226d773344123ff9766e4e96b9d2cb0d7899e90c2e73a51e7b269fec233a0c43,0,needs-file-specific-scope-review
+assets/effects/am-flicker.xml,nova.effect.am-flicker,Cintilação,opacity,effect,6eab06c090037e49700ce1a1142846414ad610343f2572d87e2e804f253fb18e,0,needs-file-specific-scope-review
+assets/effects/am-flip-layer.xml,nova.effect.am-flip-layer,Virar Camada,3d,effect,c4b9ec2f437a5af6e272b31e8b6edc4878c0178626fbe208d5096a4d57225181,0,needs-file-specific-scope-review
+assets/effects/am-flip-layer2-legacy.xml,nova.effect.am-flip-layer2-legacy,Virar Camada (antigo),3d,effect,1976dceb43a3f86ca681912c4c5d96385e2137f58598cb6c705fc5716993c6f9,0,needs-file-specific-scope-review
+assets/effects/am-flip-legacy.xml,nova.effect.am-flip-legacy,Virar (compatibilidade),3d,effect,c84d68363f55016ba352bf9efd6902155f32e971ac582217261dad6742535f89,0,needs-file-specific-scope-review
+assets/effects/am-fractal-ridges-legacy.xml,nova.effect.am-fractal-ridges-legacy,"Cristais fractais (AM, versão antiga)",procedural,effect,d561f8ea3e18a3808b1ac29872d45e70f7b59394eb398b21e0d457a686e0171f,0,needs-file-specific-scope-review
+assets/effects/am-fractal-ridges.xml,nova.effect.am-fractal-ridges,Cristais fractais,procedural,effect,e588c1b339f61f2e40fd59c77923199c2926d79a15b9d56199add7c46e04e8ee,0,needs-file-specific-scope-review
+assets/effects/am-gaussian-blur.xml,nova.effect.am-gaussian-blur,Desfoque gaussiano (AM),blur,effect,3add70b04f2d6c827b7634761dd57dfd36c0d2608c0dacbac91d3e3fc251c61a,0,needs-file-specific-scope-review
+assets/effects/am-glow-scan.xml,nova.effect.am-glow-scan,Varredura de Luminosidade,stylize,effect,c66b16bf2349e3eb4982612979e63cbde780a11e8388d3b11fc8e97349f0f9ba,0,needs-file-specific-scope-review
+assets/effects/am-gradient-map.xml,nova.effect.am-gradient-map,Mapa de gradiente (AM),color,effect,9b78382c0f608a7784f4ccbdd79c2cbe457f483758847c0b8742b4e64a29362f,0,needs-file-specific-scope-review
+assets/effects/am-grunge.xml,nova.effect.am-grunge,Grunge,procedural,effect,9069c45a78ad2cb91b43b76b3b50e215f64e991b7ee76059c8d18bfff0da47d7,0,needs-file-specific-scope-review
+assets/effects/am-highlights-shadows.xml,nova.effect.am-highlights-shadows,Realces e sombras,color,effect,72ee281b12a89b55479c63b0188f2d2abdb4ae8dfec698b1b86d59fc05b07330,0,needs-file-specific-scope-review
+assets/effects/am-hot-color.xml,nova.effect.am-hot-color,Cor Quente,color,effect,e31692eb5c526bd537e07288a80c3aa9e95397b2d1243b953920cc4be54897de,0,needs-file-specific-scope-review
+assets/effects/am-hot-color2-legacy.xml,nova.effect.am-hot-color2-legacy,Cor Quente 2,color,effect,3421a43721801c6a133cce62cda5ea3389797a38ea1d02e166e76925c0301d7e,0,needs-file-specific-scope-review
+assets/effects/am-hue-shift.xml,nova.effect.am-hue-shift,Deslocar matiz,color,effect,938dc41024f7828f22118d2d7f83ce13ea910eaaf5cad9eaf7b4f3a86ea9be4a,0,needs-file-specific-scope-review
+assets/effects/am-invert.xml,nova.effect.am-invert,Inverter (AM),color,effect,addab04760fea0bb44d68b4abf031349c7c99c0fd0b5c11e3a09e9c48eaac966,0,needs-file-specific-scope-review
+assets/effects/am-linear-streaks.xml,nova.effect.am-linear-streaks,Faixas Lineares,blur,effect,3c9422470e64a48413973dc958c490176220a5a02a4362ebfaf90d79ef1f90e3,0,needs-file-specific-scope-review
+assets/effects/am-long-shadow-legacy.xml,nova.effect.am-long-shadow-legacy,"Sombra longa (AM, versão 1)",color,effect,4d5bf01821d5df76ea3d39aea0198480e1c19401902ff44ecc43ad9603c3d09a,0,needs-file-specific-scope-review
+assets/effects/am-long-shadow.xml,nova.effect.am-long-shadow,Sombra longa (AM),color,effect,93af66a99e4d98f45e7ee69b924acbe2beea01edecececd06c873975f7f8ff67,0,needs-file-specific-scope-review
+assets/effects/am-magnify-background.xml,nova.effect.am-magnify-background,Ampliar o fundo,distort,effect,4594188d9f3da1009270c50bdc3db68a693e5d2def2f300eaa3ca12f830aefa1,0,needs-file-specific-scope-review
+assets/effects/am-motion-blur-legacy.xml,nova.effect.am-motion-blur-legacy,"Desfoque de movimento (AM, versão 1)",blur,effect,3b58932e4b4522452d9aa83afd110d2ed6595e1bcf13c1c0ed29a181d8a9b69d,0,needs-file-specific-scope-review
+assets/effects/am-motion-blur.xml,nova.effect.am-motion-blur,Desfoque de movimento (AM),blur,effect,cc88a3db6acd2f3069b24b85f40b322c5b1fe56a0d084f8beb58fb6788715d74,0,needs-file-specific-scope-review
+assets/effects/am-motion-blur2-legacy.xml,nova.effect.am-motion-blur2-legacy,"Desfoque de movimento (AM, versão 2)",blur,effect,c0b98f0c730d4b954b5381a820fb8773509ca8e6c45153c73ac890b3c4c83c8f,0,needs-file-specific-scope-review
+assets/effects/am-motion-blur3-legacy.xml,nova.effect.am-motion-blur3-legacy,"Desfoque de movimento (AM, versão 3)",blur,effect,28447b081ac189f27902f7c6ecdd5657267a2713917b6f2769235687b24bb6e5,0,needs-file-specific-scope-review
+assets/effects/am-move-along-path-legacy.xml,nova.effect.am-move-along-path-legacy,Mover ao longo do caminho (antigo),distort,effect,c422fa075f9972e2fcaaa4b651022ea4067e8c617671b8d55bbb29078cec36a1,0,needs-file-specific-scope-review
+assets/effects/am-move-along-path.xml,nova.effect.am-move-along-path,Mover ao longo do caminho,distort,effect,6385d9d9717568bf9c1660489fd249396f0e8fd367bc5c1b763fc35ade5e19b6,0,needs-file-specific-scope-review
+assets/effects/am-move-along-path2-legacy.xml,nova.effect.am-move-along-path2-legacy,Mover ao longo do caminho (antigo 2),distort,effect,3eb12d60a28a7505f5baeccb22670c61d47cff02857cb8a6de6b4419cde0c68b,0,needs-file-specific-scope-review
+assets/effects/am-oscillate-legacy.xml,nova.effect.am-oscillate-legacy,Oscilar (antigo),distort,effect,2e54fc6d3d186e7a79fa2f4b9674bd3ed8cd758cb51c4c36367dacf5419f1f9a,0,needs-file-specific-scope-review
+assets/effects/am-oscillate.xml,nova.effect.am-oscillate,Oscilar,distort,effect,8240f4e934c690513808a40a3eb26ba3e0e31fa1a9b545b0a18104fb70b9ed8c,0,needs-file-specific-scope-review
+assets/effects/am-oscillate2-legacy.xml,nova.effect.am-oscillate2-legacy,Oscilar (antigo 2),distort,effect,e1e28510436f7c5b88570d191ebf67a644f409ac1c3151eddbfc9eb3b05ed868,0,needs-file-specific-scope-review
+assets/effects/am-parenting-helper.xml,nova.effect.am-parenting-helper,Auxiliar de camada pai,distort,effect,60a5fd6188f11146d2053537118e7c2b3cdfcfe2d9675f912dbba9247bcceeb7,0,needs-file-specific-scope-review
+assets/effects/am-pinch-bulge.xml,nova.effect.am-pinch-bulge,Pinçar/saliências,distort,effect,07ebe32e10116ae00dda2d6a5e199aea1971ceb9419f047340368d273b6266e2,0,needs-file-specific-scope-review
+assets/effects/am-posterize.xml,nova.effect.am-posterize,Posterizar (AM),color,effect,b38907126f92a434c635228838054341e4725b342ca3207c81fa25f70cdb085d,0,needs-file-specific-scope-review
+assets/effects/am-pulse-opacity-legacy.xml,nova.effect.am-pulse-opacity-legacy,Opacidade do pulso (antiga),opacity,effect,5d540714a9d470a00071d2f0b14ab8b46cfb4fa73aa65982d2c407b2858799ad,0,needs-file-specific-scope-review
+assets/effects/am-pulse-opacity.xml,nova.effect.am-pulse-opacity,Opacidade do pulso,opacity,effect,70f84a832a3609e0b942d98a33a21f17f5738fd0e23afa7e4ad501dd8342c2c8,0,needs-file-specific-scope-review
+assets/effects/am-pulse-size-legacy.xml,nova.effect.am-pulse-size-legacy,Tamanho do pulso (antigo),distort,effect,aa8d013c2d8f34c49966b3d23370c0071e9734d8ec36dc25d56ec498829d689c,0,needs-file-specific-scope-review
+assets/effects/am-pulse-size.xml,nova.effect.am-pulse-size,Tamanho do pulso,distort,effect,ba106e22dee97092e7e80f948a72487da022d431f5d9b5ece097ea387fff416b,0,needs-file-specific-scope-review
+assets/effects/am-radial-rays.xml,nova.effect.am-radial-rays,Raios radiais,procedural,effect,82d3a5e1880f0371b7a91fbf040c526b201125b6403682009c0ce0f839180f40,0,needs-file-specific-scope-review
+assets/effects/am-repeat.xml,nova.effect.am-repeat,Repetir (AM),repeat,effect,6f042957c35f26d062ebb8411f5acbcb9d35047b4f2b97a4fa5c4db8a5fb4d8e,0,needs-file-specific-scope-review
+assets/effects/am-replace-color.xml,nova.effect.am-replace-color,Substituir Cor,color,effect,acfd519ac7c5410f68eb24c71638d2d9d5279edf5f3265e7cf015ea535765ecc,0,needs-file-specific-scope-review
+assets/effects/am-ring.xml,nova.effect.am-ring,Anel,3d,effect,6a26cd94d969ed648960161df920f3084491dc8460e0155627f04aa3719cecc4,0,needs-file-specific-scope-review
+assets/effects/am-scale-assist.xml,nova.effect.am-scale-assist,Assistência de escala,distort,effect,8122d13a122ed7fd089774c2ca657c1a9fd5f730198595bd39ca49dc51ac016b,0,needs-file-specific-scope-review
+assets/effects/am-shake-parts.xml,nova.effect.am-shake-parts,Agitar as partes,distort,effect,58f4bbb4f62f47fed7782f06e65a47efc6e86dd20e6f96fd64c45b6ffbd4a340,0,needs-file-specific-scope-review
+assets/effects/am-sharpen.xml,nova.effect.am-sharpen,Sharpen,blur,effect,b5e3b10a2fd2e8e0fdcedb62ff891fcefce9bf895815640ec884331aa08e1679,0,needs-file-specific-scope-review
+assets/effects/am-smooth-edges.xml,nova.effect.am-smooth-edges,Bordas lisas,stylize,effect,1cc646a63ccf2cebe097576ccd45185e23233fde000fdc0f173177839aa3b2d7,0,needs-file-specific-scope-review
+assets/effects/am-solid-color.xml,nova.effect.am-solid-color,Cor sólida,color,effect,9342324b14521c4e5740d0a937b24a9f2d51d9cf0571dd0a687244e612b36681,0,needs-file-specific-scope-review
+assets/effects/am-squeeze.xml,nova.effect.am-squeeze,Apertar (AM),distort,effect,f361935e667724f3ce2a6d51128ab518239993233de8fa4ccff2f469c7736dde,0,needs-file-specific-scope-review
+assets/effects/am-stripes.xml,nova.effect.am-stripes,Listras,procedural,effect,734f6a6b1002ec2a9fc1638e8b08ecced3cd5135b6933146ab59d6f7604b6573,0,needs-file-specific-scope-review
+assets/effects/am-swing-legacy.xml,nova.effect.am-swing-legacy,Balanço (antigo),distort,effect,b2bf6a065d6d41321dc66d3adf62a031daad1418a22667fb871ef1cabe0b08d8,0,needs-file-specific-scope-review
+assets/effects/am-swing.xml,nova.effect.am-swing,Balanço,distort,effect,e7371a64f78b81d149ac80b8d1cf7c3e89b24455cda511ae7f19f8bb06754bd4,0,needs-file-specific-scope-review
+assets/effects/am-text-randomize.xml,nova.effect.am-text-randomize,Randomizador de texto,text,effect,6ae77eb36f7448a8dc110291565076668f018b426761d0dff69cabb16b40ef7a,0,needs-file-specific-scope-review
+assets/effects/am-tiles.xml,nova.effect.am-tiles,Azulejos,distort,effect,2f45e7e7facf03bff308a80f15f6e86ede58077a48cb56716f7f909bebbba343,0,needs-file-specific-scope-review
+assets/effects/am-timecode.xml,nova.effect.am-timecode,Código temporal,text,effect,919a9b3099d6b4a5b92a51085313656389ac0b621f6cf811c62881e9fdc42901,0,needs-file-specific-scope-review
+assets/effects/am-tunnel.xml,nova.effect.am-tunnel,Túnel (AM),3d,effect,cf9a203e3eacdeab7ed6a95152d28195981d89d6741e02bdc65e074a9fefba50,0,needs-file-specific-scope-review
+assets/effects/am-turbulent-displace-legacy.xml,nova.effect.am-turbulent-displace-legacy,"Deslocamento turbulento (AM, versão 1)",distort,effect,f00769bb27310ccae33fcf41ab28ab35383dc22af7b1f51d60fe76315cfff988,0,needs-file-specific-scope-review
+assets/effects/am-turbulent-displace.xml,nova.effect.am-turbulent-displace,Deslocamento turbulento (AM),distort,effect,66dd2c9ab1e675ad40f59e449d5cf59e348bc8882db35116c43d1283a352d81a,0,needs-file-specific-scope-review
+assets/effects/am-turbulent-displace2-legacy.xml,nova.effect.am-turbulent-displace2-legacy,"Deslocamento turbulento (AM, versão 2)",distort,effect,29b45a1af60d4a430c16de8e18c79a4d6e88946e6b1c227008dac7c488d2d8bb,0,needs-file-specific-scope-review
+assets/effects/am-unsharp-mask.xml,nova.effect.am-unsharp-mask,Máscara Nitidez (AM),blur,effect,3e87356c5c6a7326817d99b0bd5cd137e199149709215ad9b03784ab408e02d0,0,needs-file-specific-scope-review
+assets/effects/am-vibrance-saturation.xml,nova.effect.am-vibrance-saturation,Saturação/vibração,color,effect,7193f3184abafc4fae6cde9d02361c6face6af66924d16e1fc71b411e2e459de,0,needs-file-specific-scope-review
+assets/effects/anamorphic-streak.xml,nova.effect.anamorphicstreak,Risco anamórfico,stylize,effect,1a2bb463151fe2a5da707ce7f3c369afc10ab096d1e2225211d0ab3b8e840091,0,needs-file-specific-scope-review
+assets/effects/anime-shadow.xml,nova.effect.anime-shadow,Sombra de anime,stylize,effect,3435797e95e8cf599a8959b5efc4c6bd56dc487fe872f375468ce7985edfaab9,2,needs-file-specific-scope-review
+assets/effects/ao.xml,nova.effect.ao,Oclusão de ambiente,stylize,effect,42dc5dba577dd798150caf19604c6483a5d0f154c67394ba1c61dd54671dc44f,0,needs-file-specific-scope-review
+assets/effects/audio-spectrum.xml,nova.effect.audiospectrum,Espectro de áudio,procedural,effect,dfaf636f2d49831753df5d39fbbb2c4154403080e845d1f43f2efafec3020ac0,0,needs-file-specific-scope-review
+assets/effects/aurora.xml,nova.effect.aurora,Aurora,generate,effect,3a13674f4ce16dc4352052478fb5248be88a4148e1d5df9bd7827e9a8588b62f,5,needs-file-specific-scope-review
+assets/effects/bandfill.xml,nova.effect.bandfill,KO BandFill,generate,effect,eb9065d7700ec03bbf125580e3e338fffef1036dbadee0c92f3164e5ef15aecf,0,needs-file-specific-scope-review
+assets/effects/bcc-3d-image-shatter.xml,nova.effect.bcc3dimageshatter,BCC 3D Image Shatter,stylize,effect,c044d2db3011e767e8ee0afa7f0696a9e5410c9649b94f218b3da44d8994ab2c,0,needs-file-specific-scope-review
+assets/effects/bcc-cross-glitch.xml,nova.effect.bcccrossglitch,BCC Cross Glitch,stylize,effect,6b00984c89a3f641b604e537845b140c74826e2e0d5ef1a721d6be8e0ef411a9,0,needs-file-specific-scope-review
+assets/effects/bcc-directional-blur.xml,nova.effect.bccdirectionalblur,BCC Directional Blur,blur,effect,ac4107922b0df599d6378bf41530a83c7fe19fa9cc9298d7fdc177973e57daf5,0,needs-file-specific-scope-review
+assets/effects/bcc-drop-shadow.xml,nova.effect.bccdropshadow,BCC Drop Shadow,stylize,effect,bf51f77ce268e6bda2977852019979b70bbd3d8348634fe6666c471f1bd71a0f,0,needs-file-specific-scope-review
+assets/effects/bcc-lens-blur.xml,nova.effect.bcclensblur,BCC Lens Blur,blur,effect,6373f4586962030271ff3cb805d6b65655dc76284164ed1821931913c99f4fd2,0,needs-file-specific-scope-review
+assets/effects/bcc-light-wrap.xml,nova.effect.bcclightwrap,BCC Light Wrap,stylize,effect,52a6d77d6e6532ca2c8d089260249d9bd7f441ba58f9ed6aa90e46c444b4a8da,0,needs-file-specific-scope-review
+assets/effects/bcc-magic-sharp.xml,nova.effect.bccmagicsharp,BCC Magic Sharp,stylize,effect,b1756626c9a87b5997e986ef44113b47add3041f7c4c96b67ebe9b39e570bc04,0,needs-file-specific-scope-review
+assets/effects/bcc-prism.xml,nova.effect.bccprism,BCC Prism,stylize,effect,9a04b3b368b65cf6b13e23b0bc16fdb1b280a5b8e24c662ff747a9c4f1d655a3,0,needs-file-specific-scope-review
+assets/effects/bcc-rays-textured.xml,nova.effect.bccraystextured,BCC Rays Textured,stylize,effect,edf157413e9435c56ccbde16331ad3e77355d4032ff3112b0f18e20f9685885a,0,needs-file-specific-scope-review
+assets/effects/bcc-ripple-dissolve.xml,nova.effect.bccrippledissolve,BCC Ripple Dissolve,distort,effect,9a22a0184cdc28f7ed0c99c9897012a78e0386cdd9b83497fa6161b3c6c407ed,0,needs-file-specific-scope-review
+assets/effects/bccrain.xml,nova.effect.bccrain,BCC Rain,generate,effect,121ae6674cf9fb90559468f5c52e5f323d3c26d6cce9c08f84749cb73a8cf6f1,0,needs-file-specific-scope-review
+assets/effects/bevel-alpha.xml,nova.effect.aebevelalpha,Bevel Alpha (AE),stylize,effect,05cb8cf596b85c56c89a73e6cb8854d757e52fbc3e6ad38e8848d42b79a60bdc,0,needs-file-specific-scope-review
+assets/effects/bevel.xml,nova.effect.bevel,Bisel e sombra interna,stylize,effect,33f911a56148d30879e814a9c1759a4777b28a65166cdfd4fdb1bb935ee98e61,0,needs-file-specific-scope-review
+assets/effects/bleed.xml,nova.effect.bleed,Sangue escorrendo,stylize,effect,355fa717b387ed53639abdf645062d65ec5d1597815dc9bacda08568bd51763b,0,needs-file-specific-scope-review
+assets/effects/blob-tracker-v2.xml,nova.effect.blobtrackerv2,Rastreador de blobs (rastreio real),stylize,effect,ded3c1954d804f8ecafee393c30f5b745a87ef3571abb0469c510028e2fb6aa8,4,needs-file-specific-scope-review
+assets/effects/bokeh.xml,nova.effect.bokeh,Bokeh,blur,effect,c7d8a47ed8b45422845abf46257014381ee67fb0463ef67ce3f24ec0d64fecbb,4,needs-file-specific-scope-review
+assets/effects/brightness-contrast.xml,nova.effect.brightcontrast,Brilho e contraste,color,effect,24b8c4bbbfb75440d7e8aebbd972087c3ba84cec59a052721dbdc6e7f2a5458e,0,needs-file-specific-scope-review
+assets/effects/bulge.xml,nova.effect.bulge,Esferizar,distort,effect,f6b1c2d6710fa485ec0653353b673c19004d63b7e0b7dd4c931d7916a690303c,0,needs-file-specific-scope-review
+assets/effects/capa-ao-vento.xml,nova.effect.capaaovento,Capa ao vento,distort,effect,873525f0e5d2baf2ae2f31e074349a235a4d9644c027a2abeb433c814dff681c,0,needs-file-specific-scope-review
+assets/effects/cc-ball-action.xml,nova.effect.ccballaction,CC Ball Action,stylize,effect,2925eccb15e3d15cac4592c6f001be9dfb8c67ccf76b3c06ded3ec039b0ba92d,0,needs-file-specific-scope-review
+assets/effects/cc-burn-film.xml,nova.effect.ccburnfilm,CC Burn Film,stylize,effect,bbb478bd5cbeb679490f7a434b4dc0b41690742868265e728a8950f8ac777043,0,needs-file-specific-scope-review
+assets/effects/cc-composite.xml,nova.effect.cccomposite,CC Composite,stylize,effect,77a133cf76a9755096ac7ad2f419aacaede97e842ba62ebf37fba9ff75618ff3,0,needs-file-specific-scope-review
+assets/effects/cc-jaws.xml,nova.effect.ccjaws,CC Jaws,matte,effect,a8f7dcfa471577e4aeea028e8ce8048cdb4f011403178fecfcd8d717784fbb0e,0,needs-file-specific-scope-review
+assets/effects/cc-lens.xml,nova.effect.cclens,CC Lens,distort,effect,fac14f9acb587775d94021d81c68daf08d2536f2c208485f6e417e33253f2e2e,0,needs-file-specific-scope-review
+assets/effects/cc-light-burst.xml,nova.effect.cclightburst,CC Light Burst 2.5,generate,effect,f76fff3deeaa14720e333fd0f1243c5b1a16cd2cfbc6ae4349a1d7f94fec27ef,0,needs-file-specific-scope-review
+assets/effects/cc-particle-world.xml,nova.effect.ccparticleworld,CC Particle World,generate,effect,21560e1eb4619765ca565de6d09716f1f5251ef263731bfed60d134d5e3a848e,0,needs-file-specific-scope-review
+assets/effects/cc-radial-blur.xml,nova.effect.ccradialblur,CC Radial Blur,blur,effect,99ebe98429c9e01e03d2793f33350f89fa7394fc1db907d6a5d754ae1d52489a,0,needs-file-specific-scope-review
+assets/effects/cc-vector-blur.xml,nova.effect.ccvectorblur,CC Vector Blur,blur,effect,6178491ea3532b162aeec1865e53afd266ba75fabb3ec23e709cc1fed2661f08,0,needs-file-specific-scope-review
+assets/effects/cc-wide-time.xml,nova.effect.ccwidetime,CC Wide Time,stylize,effect,28bcbac44a0933e83cff694cf44f79746ff5a889d081b6c60926148525c31e96,0,needs-file-specific-scope-review
+assets/effects/channel-mixer.xml,nova.effect.channelmixer,Misturador de canais,color,effect,3d9d538747fef9874ebf806df7d65885e92c1a7ef80c5c81438c33a8fad79bf0,0,needs-file-specific-scope-review
+assets/effects/checkerboard.xml,nova.effect.checkerboard,Xadrez,procedural,effect,0828fe6adf1658b2dee309db5270988e2c73e031bb0a23a0637ff1fe3eb34701,0,needs-file-specific-scope-review
+assets/effects/choker.xml,nova.effect.choker,Aparar recorte,matte,effect,cd8b290bc09d7672eafbf1f662844502848f34915ca1f2c8a1c784dec0330922,0,needs-file-specific-scope-review
+assets/effects/chroma-key.xml,nova.effect.chromakey,Chroma key,matte,effect,1abb5bdd24842a09297689beb3d3cf54fe2ea02060085587d4738e8c80807c73,0,needs-file-specific-scope-review
+assets/effects/clouds.xml,nova.effect.clouds,Nuvens,procedural,effect,93b09940168864644128f635da302778dfa8935b58cd9a51a9c326d2b40a1611,1,needs-file-specific-scope-review
+assets/effects/color-balance.xml,nova.effect.color-balance,Balanço de cor,color,effect,d491c4a2173d3cf09a850d5545cc6a37be339f298f62f2c35d3b94530a786322,0,needs-file-specific-scope-review
+assets/effects/color-key.xml,nova.effect.colorkey,Chave de cor,matte,effect,2d968c14b645004837a6b95221d81efeeb5ae6ec44ac885606ac07e9f01c8587,0,needs-file-specific-scope-review
+assets/effects/color-temperature.xml,nova.effect.colortemp,Temperatura de cor,color,effect,f69193a3ba4d2f9f410c1958e113e20eacbc8373336b6f9a625017a830bc6123,0,needs-file-specific-scope-review
+assets/effects/colorama.xml,nova.effect.colorama,Colorama,color,effect,9b131698b072ec8c2978d1eab7476d5c23411ec71709f92dd9a89235e4402d3b,0,needs-file-specific-scope-review
+assets/effects/compound-blur.xml,nova.effect.compoundblur,Desfoque composto,blur,effect,9baaf235436c4794cf7b201665949d46036ac55d64f31af5ab2d9873c03efd01,0,needs-file-specific-scope-review
+assets/effects/copy-background.xml,nova.effect.copybackground,"Copiar fundo (Nova, até a 0.651)",stylize,effect,b7778e57f283dcbacd1573ccf78a62b5122acd112e7bbd162f94332affe1722d,0,needs-file-specific-scope-review
+assets/effects/corner-pin.xml,nova.effect.cornerpin,Fixar cantos,distort,effect,1a6a73a7febbe8c1b3d7d2d0340c5fc2639302799fb7b00bd88496710aa06957,0,needs-file-specific-scope-review
+assets/effects/cosmico.xml,nova.effect.cosmico,Cósmico,generate,effect,4cb776090405b3f02a7f151c579597b5ccbf6032c7c89b816a8844a401f82909,0,needs-file-specific-scope-review
+assets/effects/crt.xml,nova.effect.crt,Tela antiga (CRT),stylize,effect,01c3e6c67454385dc47d9bac53c8a840fbe3e46d077c259ab541f1a2bdb3103c,0,needs-file-specific-scope-review
+assets/effects/crystallize.xml,nova.effect.crystallize,Cristalizar,stylize,effect,ede539739ca3975b9268d792f0aff9311995f9e62e0cee2210b9f1123faefcae,0,needs-file-specific-scope-review
+assets/effects/curves.xml,nova.effect.curves,Curvas,color,effect,cad1f8e4c5dc256b5950afbcbee7038c05dc50053d4fb5976ddac25a6dc08cef,0,needs-file-specific-scope-review
+assets/effects/datamosh-pro.xml,nova.effect.datamoshpro,Datamosh Pro (movimento),stylize,effect,18c138dca5d6551397b131ffb78a9125ea2477e88bb93bebce871af582f8339b,19,needs-file-specific-scope-review
+assets/effects/datamosh.xml,nova.effect.datamosh,Datamosh (corrupção de compressão),stylize,effect,e6c6d14d85987aac09b5ed44986e892303cf6a69ef3d7af3785025a322a5242b,0,needs-file-specific-scope-review
+assets/effects/deep-glow-ae.xml,nova.effect.pedg,Deep Glow (AE),stylize,effect,3c48ba3b3c7951ca69439dbfd68d55913b19680a8768290cdb9f296169703fc5,0,needs-file-specific-scope-review
+assets/effects/deep-glow.xml,nova.effect.deepglow,Luz profunda,stylize,effect,67b43fd6e7697dbeba8f558e662c19ff2c0d96e37ceeda036bd060c94690a0a6,0,needs-file-specific-scope-review
+assets/effects/depth-map.xml,nova.effect.depthmap,Mapa de profundidade,distort,effect,834d7ce3743c56ea39e6f9d18ea53a774d2b02803f8a7314f7a01eca047805f3,0,needs-file-specific-scope-review
+assets/effects/directional-blur.xml,nova.effect.directionalblur,Desfoque direcional,blur,effect,4a5e89fc819166c827bb4d4933e72618c1a259128dc51234004bd8d63a5da0de,0,needs-file-specific-scope-review
+assets/effects/displace.xml,nova.effect.displace,Deslocar por mapa,distort,effect,a7d07d6e0172b7b4b1b186d6c56e5cdd6cecc6f7fb40bda05703e328d8d03fe4,0,needs-file-specific-scope-review
+assets/effects/dot-matrix.xml,nova.effect.dotmatrix,Painel de LED,stylize,effect,61259b522c85f5910fd57c0156c670e74c9a2034e6716bb31e2a4ba3cec42c42,0,needs-file-specific-scope-review
+assets/effects/drop-shadow.xml,nova.effect.dropshadow,Sombra projetada,stylize,effect,01be5d55d05c412b2c9706d21438fe3084bff2bf5a963f1c771a753e31168c6f,0,needs-file-specific-scope-review
+assets/effects/duotone.xml,nova.effect.duotone,Duas cores,color,effect,d44e7328865a2375ebde0cd300cba705c1793cc08bd8b23bbff1921f119ee93f,0,needs-file-specific-scope-review
+assets/effects/dust-dissolve.xml,nova.effect.dustdissolve,Dissolver em poeira,matte,effect,66556b9115526f3018a96e264dc95e0bac8833deac32b914f40d2474d9a1f7cb,0,needs-file-specific-scope-review
+assets/effects/echo.xml,nova.effect.echo,Eco (rastro),stylize,effect,14791f748a0ab3d008a31b907ee3a67bcf42aaa14e4f624e44713dfd010917e8,0,needs-file-specific-scope-review
+assets/effects/edge-detect.xml,nova.effect.edge-detect,Detectar bordas,stylize,effect,b70a7f7a369794edad72f48f2f591fcba0f3759a15d736c4b86505eae9ff4a56,0,needs-file-specific-scope-review
+assets/effects/edge-fade.xml,nova.effect.edgefade,Desvanecer bordas,matte,effect,c905521f35c343f2425b50fdba4992d0e23fda8ef622b56a2584585a93c3ac4c,0,needs-file-specific-scope-review
+assets/effects/emboss.xml,nova.effect.emboss,Relevo,stylize,effect,8606c03e76977e708024a121a7bbbb90e81ba3c762d1a5e90f5730fac144b33a,0,needs-file-specific-scope-review
+assets/effects/energy-beam.xml,nova.effect.energybeam,Feixe de energia,procedural,effect,6472f5bac0014c1b8e0ba6258c9761dc97238fd59554f1996017fdd7b4b4ef17,0,needs-file-specific-scope-review
+assets/effects/expandir-bordas.xml,nova.effect.growbounds,Expandir bordas,other,effect,f3b152d3cd6c0bcbcb379afbe9cf4ef302c5e9adf3da290691c56adf42e3b511,0,needs-file-specific-scope-review
+assets/effects/exposure.xml,nova.effect.exposure,Exposição,color,effect,1f3b13f48f7163f22e414c37f33eb51de3b17f22745b2ee575668d272526fa33,0,needs-file-specific-scope-review
+assets/effects/extract.xml,nova.effect.extract,Extrair,matte,effect,e290695c0ecf1c308149de898eb3362cbcc76079570bddd1fb7198fb2f9c83d3,0,needs-file-specific-scope-review
+assets/effects/extrude.xml,nova.effect.extrude,Extrusão 2.5D,stylize,effect,c06c726d30d2fc4be0d23328291f6413faf2bdbefe0f9bb9d296523b10f13cb4,0,needs-file-specific-scope-review
+assets/effects/extrude3d.xml,nova.effect.extrude3d,Extrusão 3D,stylize,effect,af16a41290a1f91088f5ffd3c58c6f5e3f43567f2d277cfed3fffea699c5ed62,0,needs-file-specific-scope-review
+assets/effects/film-grain.xml,nova.effect.grain,Granulação,stylize,effect,48970a949546684a3250440e7f7509d3930719d55fc131fbd6015790a6c8e5f9,0,needs-file-specific-scope-review
+assets/effects/fisheye.xml,nova.effect.fisheye,Olho de peixe,distort,effect,d7ea9311ae73cfbc5fd7419f5d3c00bc4b4cd3a7ffff920aeba00ec5d71d2cfc,0,needs-file-specific-scope-review
+assets/effects/fractal-noise.xml,nova.effect.fractalnoise,Ruído fractal,procedural,effect,ec2c7c20d7b2bd8fec639b89e2f0e4ff5da6da41e50f434ceca5bf80d6d9eb59,0,needs-file-specific-scope-review
+assets/effects/gaussian-blur.xml,nova.effect.gaussianblur,Desfoque gaussiano,blur,effect,97354b0a5f4b747213d01e09ea55609df80541f863c76ea3cb3712d2ca1818f8,0,needs-file-specific-scope-review
+assets/effects/glitch.xml,nova.effect.glitch,Falha digital,stylize,effect,7cb8898abfb5c3074f96d084bd05ca13cf3e8e5447f49296e4c8437daaada86b,0,needs-file-specific-scope-review
+assets/effects/glitchify.xml,nova.effect.glitchify,Glitchify,distort,effect,7623adbddba16cc65e40db1fc4c76c192a5c84f5761dec8b3304222ac5e5367d,0,needs-file-specific-scope-review
+assets/effects/glow.xml,nova.effect.glow,Brilho,stylize,effect,dc67e8b51aeeef9d60020697277bf1eb9ec11205713ce6a1ccaa1fb4ffd65a9a,0,needs-file-specific-scope-review
+assets/effects/god-rays.xml,nova.effect.godrays,Flare Volumétrico,stylize,effect,f9f23da6fb12eed2b378fee8a92b55b1b75c0f6cd9f0e3b4c272013532246040,9,needs-file-specific-scope-review
+assets/effects/gradient-4-color.xml,nova.effect.gradient4color,Gradiente de 4 cores,procedural,effect,49c74cbab90638d77d0d70bee120afed567a7aff9fc9c5987a18f425a87cd304,0,needs-file-specific-scope-review
+assets/effects/gradient-map.xml,nova.effect.gradientmap,Mapa de gradiente,color,effect,9f4ba00d84d8148ff9949f87d78e50fe21c775c929c15b4a66e9af821752b2d8,0,needs-file-specific-scope-review
+assets/effects/gradient-ramp.xml,nova.effect.gradientramp,Rampa de gradiente,procedural,effect,ae99dfcca385e27bc5a91c3e63a0a285c389f6a2fb7b0505b39dc2e02f0b149b,0,needs-file-specific-scope-review
+assets/effects/grid-builder.xml,nova.effect.gridbuilder,Construtor de grade,stylize,effect,d3e16fa711067672b2377ca7cba2cc4b89d70a6a2c0fc1df1ac3d94a1fd18efe,0,needs-file-specific-scope-review
+assets/effects/grid.xml,nova.effect.grid,Grade,procedural,effect,e375f949a8fe7845038101379903a69f8bbf2b5529ec5bc7b1210b45b5a5275c,0,needs-file-specific-scope-review
+assets/effects/halftone.xml,nova.effect.halftone,Meio-tom,stylize,effect,feb57295486a9995a66513a015b25d7a0a4a98ed1ab04911b955715d7e1298fd,0,needs-file-specific-scope-review
+assets/effects/handwriting-reveal.xml,nova.effect.handwriting,Escrita à mão,text,effect,1ae852a6f9f4bc0059a3d0cde330946ce92552b0327f4a71bb7bab19f761c6f8,0,needs-file-specific-scope-review
+assets/effects/heat-distortion.xml,nova.effect.heatdistortion,Heat Distortion,distort,effect,1a292acc79334921bce8a559b48d444fd7b8e55d33af7cb4b5d2e07448c4d9ba,0,needs-file-specific-scope-review
+assets/effects/hexagons.xml,nova.effect.hexagons,Hexágonos,stylize,effect,4df4f2fe36f287de1d73a45ecbb1d31fcbb4d31f1d85515f9a82d78c45efb3d9,0,needs-file-specific-scope-review
+assets/effects/holomatrix.xml,nova.effect.holomatrix,Holomatrix,stylize,effect,7cd9bb604aeebc48e6ac3d37ee3a8a3399c0eb2e15854d58ed95ea46fcfd19dc,0,needs-file-specific-scope-review
+assets/effects/hotspots.xml,nova.effect.hotspots,Pontos de luz,stylize,effect,48e5f761ee2b0cfe952faca3181d15b347ca375e6a6b48e1c2df34de39e69b3d,0,needs-file-specific-scope-review
+assets/effects/hsl-range-selection.xml,nova.effect.hslrange,Seleção por faixa HSL,matte,effect,29debedf44f07dfbe0c6a5f5f82f1c3f6fdea57259b4de2ae730f58eda0668fc,0,needs-file-specific-scope-review
+assets/effects/hue-saturation.xml,nova.effect.huesat,Matiz e saturação,color,effect,67c1e7c0046cf1d1b6f47a53f9aa3d4d43be4377d4344581b27e14554c1b70f2,0,needs-file-specific-scope-review
+assets/effects/inner-glow.xml,nova.effect.innerglow,Brilho interno,stylize,effect,c932d1fe673393ddb81a62c005109fa9ba2033708fd6cbc7e052f48227596aed,0,needs-file-specific-scope-review
+assets/effects/invert.xml,nova.effect.invert,Inverter,color,effect,60ea24e42261e20324134073bdcd835152234706c84d9402afde2160968c5fe2,0,needs-file-specific-scope-review
+assets/effects/kaleidoscope.xml,nova.effect.kaleidoscope,Caleidoscópio,distort,effect,8fe0a68f645a543bbe38a6c5f9f5ce3f76bfdad4637ed1881103f4e61b80931d,0,needs-file-specific-scope-review
+assets/effects/lens-blur.xml,nova.effect.lensblur,Desfoque de lente,blur,effect,bc289f3d01e2871db8e78f5b4e3028b16a0b6ee341e0f373a80c92c61af8980e,0,needs-file-specific-scope-review
+assets/effects/lens-distortion.xml,nova.effect.lens-distortion,Distorção de lente,distort,effect,3450730c25a2be040a7f85400dfe5480e8856cdc4224b7657b5a7fd21b89340e,0,needs-file-specific-scope-review
+assets/effects/levels.xml,nova.effect.levels,Níveis,color,effect,f6c98f9c1840a2302f0d51e263e638d954ec1ada25ca0e92c3c44a4386cdbdcf,0,needs-file-specific-scope-review
+assets/effects/light-rays.xml,nova.effect.lightrays,Raios de luz,stylize,effect,0069c3287eaf31b9a5947a525b9b2792df9a49a2de318131bbc4a205ae08bff2,0,needs-file-specific-scope-review
+assets/effects/light-sweep.xml,nova.effect.lightsweep,Passada de luz,stylize,effect,47c47376a4f08cb208f6eb8138914f21e836ee9e148385dbf0ea6736aed324d2,0,needs-file-specific-scope-review
+assets/effects/light-wrap.xml,nova.effect.lightwrap,Envolver em luz (Light Wrap),matte,effect,1e61c09efe609c8ed58c47eb0de5f58b6ccabdd2ee715abd450af5338d795512,4,needs-file-specific-scope-review
+assets/effects/lightning.xml,nova.effect.lightning,Raio,procedural,effect,e9396136c78f03db89db60b7fa243e48573a73bbd4fc2400b8a6232b661d302a,0,needs-file-specific-scope-review
+assets/effects/linear-wipe.xml,nova.effect.linearwipe,Cortina linear,matte,effect,6602da9d9d759628ec3ce2aaee84006425d7df39b01cc916df541bc36bf1e691,0,needs-file-specific-scope-review
+assets/effects/liquid-glass.xml,nova.effect.liquidglass,Vidro líquido,stylize,effect,78080ab3accfdae069079081d0589e608f90bc4ed54f8578a93e0bb8823b0675,0,needs-file-specific-scope-review
+assets/effects/long-shadow.xml,nova.effect.longshadow,Sombra longa,stylize,effect,fd384b587c5a57d013702f1a4692aae71038f3263343b3b5d394dea1e4990dda,0,needs-file-specific-scope-review
+assets/effects/look-chill-cc-2.xml,nova.effect.look.chill-cc-2,Chill CC 2,cc,effect,b8f3ac5863d01d04f416e0a58a5e2bdf07027b01d6d3f1882dff3c8a948e38a9,0,needs-file-specific-scope-review
+assets/effects/look-dark-cc-2.xml,nova.effect.look.dark-cc-2,Dark CC 2,cc,effect,3ccde4f2f5365d3ad137790e8e2f27a02cd4418b0dafa2b827de6690126e1613,0,needs-file-specific-scope-review
+assets/effects/look-dark-cc.xml,nova.effect.look.dark-cc,Dark CC,cc,effect,c248a648441cc22dc8e23d3fab55c6dc64d314dfb8838160cc57d67d8f71c4b9,0,needs-file-specific-scope-review
+assets/effects/look-hype-cc-2.xml,nova.effect.look.hype-cc-2,Hype CC 2,cc,effect,f1010bd72c7704eae756ef0b6ee9ac0a4e62b112547eecf18289ea46230d1b76,0,needs-file-specific-scope-review
+assets/effects/look-purple-cc.xml,nova.effect.look.purple-cc,Purple CC,cc,effect,ad0c00e2318bcbc1a6ab75e989c531d308af8e31abd3080d897642478359d8d1,0,needs-file-specific-scope-review
+assets/effects/luma-key.xml,nova.effect.lumakey,Chave por luminância,matte,effect,95c79eb22739aa82418364ea7a48d77e30a302eb6b3e526a1544657ff40f2e50,0,needs-file-specific-scope-review
+assets/effects/magnify.xml,nova.effect.magnify,Lupa,distort,effect,f366079d6741982dbac6091970745b5ceee9258347f55e7f1978b88805379e7b,0,needs-file-specific-scope-review
+assets/effects/markr.xml,nova.effect.markr,MARKr,text,effect,84294641e41b82bee91e73b592900c9d5315cf63e2c524bf47224b67262e9d1f,0,needs-file-specific-scope-review
+assets/effects/mask-png-scatter.xml,nova.effect.maskpngscatter,MaskPNGScatter,generate,effect,137db1ebc19c11543d7394a30526dda77668474e725d36fe68b197eded640e5d,0,needs-file-specific-scope-review
+assets/effects/mblooks-2-strip-process.xml,nova.effect.mblooks.twostrip,Looks: 2-Strip Process,looks,effect,de4bac4acdac72cd58bc6baa213586aff98404808b66f0cd501f941644977cad,0,needs-file-specific-scope-review
+assets/effects/mblooks-channel-mixer.xml,nova.effect.mblooks.channelmixer,Looks: Channel Mixer,looks,effect,61a21e1f0e2459a38ef0ebbbbd356b1cb02c4df047bd7f3009b0382aa2217028,0,needs-file-specific-scope-review
+assets/effects/mblooks-chromatic-aberration.xml,nova.effect.mblooks.chromab,Looks: Chromatic Aberration,looks,effect,0e84c399082ae878f166483456b8b0e5f0d583ab02a92e7b3256bbc1193597a0,0,needs-file-specific-scope-review
+assets/effects/mblooks-colorista.xml,nova.effect.mblooks.colorista,Looks: Colorista,looks,effect,bb4e4e74f3098b19fefb99a2a1fbd8da2ce3e111f85f06228e6650ed158bbdea,0,needs-file-specific-scope-review
+assets/effects/mblooks-diffusion.xml,nova.effect.mblooks.diffusion,Looks: Diffusion,looks,effect,15b0675c12128e37324dc7fc015e49ece87e3ecf653c9b2d5f5920c03048f3dc,0,needs-file-specific-scope-review
+assets/effects/mblooks-duotone.xml,nova.effect.mblooks.duotone,Looks: Duotone,looks,effect,17bff038d9ac715534e3a08846a749190aeaaaae6d7e5d08ac3096ccf4ee9910,0,needs-file-specific-scope-review
+assets/effects/mblooks-edge-softness.xml,nova.effect.mblooks.edgesoftness,Looks: Edge Softness,looks,effect,1fea5a4891368fb3c177876da26e1116f2abd4b9e8131c89274b1b1072bacb2a,0,needs-file-specific-scope-review
+assets/effects/mblooks-exposure.xml,nova.effect.mblooks.exposure,Looks: Exposure,looks,effect,4ab9175e3b6a9462a99b2a89c13dfea18526cc00f21142b66588b173f8258891,0,needs-file-specific-scope-review
+assets/effects/mblooks-haze-flare.xml,nova.effect.mblooks.hazeflare,Looks: Haze/Flare,looks,effect,23e383a4471c200143fba730fa8813c7387ae57df6177d0e829da05e58899f76,0,needs-file-specific-scope-review
+assets/effects/mblooks-hsl-colors.xml,nova.effect.mblooks.hslcolors,Looks: HSL Colors,looks,effect,b2ef12259e4609bc53c1f5539c201dd5a63f362cb91a2aa1bac36dc1b85f7720,0,needs-file-specific-scope-review
+assets/effects/mblooks-hue-saturation.xml,nova.effect.mblooks.huesaturation,Looks: Hue/Saturation,looks,effect,36179b04a3c071548c0aed29321ec886d47f54c1cb9b1d672e58482887710d74,0,needs-file-specific-scope-review
+assets/effects/mblooks-lens-vignette.xml,nova.effect.mblooks.lensvignette,Looks: Lens Vignette,looks,effect,380807cc1cb2c4fcef205d9125e5a562b0ccd83e56fd895da307b05d5c2986ea,0,needs-file-specific-scope-review
+assets/effects/mblooks-lift-gamma-gain.xml,nova.effect.mblooks.liftgammagain,Looks: Lift-Gamma-Gain,looks,effect,6f568cffa554696be28550e1b8d1be4cb178365234765bb5704c98156ea26002,0,needs-file-specific-scope-review
+assets/effects/mblooks-lut.xml,nova.effect.mblooks.lut,Looks: LUT,looks,effect,dbcdcac1fed656ba9f84bcf65f389233eb8356ad4a9837a122c811624cb5f99f,0,needs-file-specific-scope-review
+assets/effects/mblooks-mojo-ii.xml,nova.effect.mblooks.mojo2,Looks: Mojo II,looks,effect,1b79f994670904896748515060e2d81e8c55592ed0f1ec09273ef9e09951bab6,0,needs-file-specific-scope-review
+assets/effects/mblooks-neg-bleach-bypass.xml,nova.effect.mblooks.negbleachbypass,Looks: Neg Bleach Bypass,looks,effect,7bf929240fa2046811805cd7c3d0c8fef81a5c33e63c7ecfd063c2a4db3d4ab6,0,needs-file-specific-scope-review
+assets/effects/mblooks-optical-diffusion.xml,nova.effect.mblooks.opticaldiffusion,Looks: Optical Diffusion,looks,effect,d112b87f0d796c723e57c76631498bc0a331a26187ca61741329e58b279a0d65,0,needs-file-specific-scope-review
+assets/effects/mblooks-pop.xml,nova.effect.mblooks.pop,Looks: Pop,looks,effect,7d99754e6f6e52ef64a8302104e0ae9b01283cdeef1141f267690a702a19564c,0,needs-file-specific-scope-review
+assets/effects/mblooks-print-bleach-bypass.xml,nova.effect.mblooks.printbleachbypass,Looks: Print Bleach Bypass,looks,effect,c07b24b80a41321378bc783932cae649a76efafa43fb1abc1ff3bbb489fdbbfd,0,needs-file-specific-scope-review
+assets/effects/mblooks-s-curve.xml,nova.effect.mblooks.scurve,Looks: S Curve,looks,effect,f1978870feab26268cb1c078a628f3f023671d3d56e70180052b568f57d5382e,0,needs-file-specific-scope-review
+assets/effects/mblooks-spot-exposure.xml,nova.effect.mblooks.spotexposure,Looks: Spot Exposure,looks,effect,cdf253e3d8e66b65527a6d5f0d7f0ce066edb71a660ad27d1f0e42177a99fdc4,0,needs-file-specific-scope-review
+assets/effects/mblooks.xml,nova.effect.mblooks,Magic Bullet Looks,looks,effect,ca8cde63c12864290b6daeed8dddd671a2e8b35575a66567ff255ea5ca1b53f4,0,needs-file-specific-scope-review
+assets/effects/minimax.xml,nova.effect.minimax,Mínimo e máximo,matte,effect,ca735f6611e395840043a657a9eb0e872112ed36dad6bd4682a2fc90860666ef,0,needs-file-specific-scope-review
+assets/effects/mirror.xml,nova.effect.mirror,Espelho e caleidoscópio,distort,effect,4ad8e2e860b8499914402bf337cb1361f3fbf22bca1eab364c43536a6634c56a,0,needs-file-specific-scope-review
+assets/effects/mosaic.xml,nova.effect.mosaic,Mosaico,stylize,effect,08d74646adbdb053ac093e3c6dc0e396af908a44f9ce337e02e7262aca4c72b8,0,needs-file-specific-scope-review
+assets/effects/motion-blur.xml,nova.effect.motionblur,Desfoque de movimento,blur,effect,4e1c0869684c218b772caafda27a994b8c6cf2995275f3fbaa025b45181005db,0,needs-file-specific-scope-review
+assets/effects/motion-tile.xml,nova.effect.motiontile,Ladrilho de movimento,repeat,effect,29abf409a0364c935648d2f3fcf85f9d003a67d894ba66076d2a2183279a749e,0,needs-file-specific-scope-review
+assets/effects/node-bend.xml,nova.effect.node-bend,Curvatura (Node),distort,effect,92f738f8a13be5e30e5b12e7ca0f31c5dc51c0102707c67b8d50e6fd0fbbb4f3,0,needs-file-specific-scope-review
+assets/effects/node-color-grading.xml,nova.effect.node-color-grading,Color Grading (Node),color,effect,80c1cd277efdecef6fe0d3766e2c91f8e3449e8838ff32f3ac6094909423821b,0,needs-file-specific-scope-review
+assets/effects/node-cross-blur.xml,nova.effect.node-cross-blur,Desfoque cruzado (Node),blur,effect,3c20f984196e4a93afcd619a042ebcaac8846ebb5a3cd52c80562cb3f234659d,0,needs-file-specific-scope-review
+assets/effects/node-directional-blur.xml,nova.effect.node-directional-blur,Desfoque direcional (Node),blur,effect,1b0dad24ad7b6b31d3137562f4c44079e4f07f908ea53f2b8c78f49cb3e0e4f8,0,needs-file-specific-scope-review
+assets/effects/node-displacement-map.xml,nova.effect.node-displacement-map,Mapa de deslocamento (Node),distort,effect,cba1dc990967ccdd053363fd4404994fdc6d2015a5e3b57df9df59c4eaf099c7,0,needs-file-specific-scope-review
+assets/effects/node-fill-color.xml,nova.effect.node-fill-color,Cor de preenchimento (Node),color,effect,e03699376aae16b6be8ed6fbee10abcdd7c4a71cac4402621c26a81d60f024de,0,needs-file-specific-scope-review
+assets/effects/node-gaussian-blur.xml,nova.effect.node-gaussian-blur,Desfoque gaussiano (Node),blur,effect,87a45bb407e3c852796f518d84155a221a77ec3978b0c2e9b855087ba4160f1f,0,needs-file-specific-scope-review
+assets/effects/node-manga.xml,nova.effect.node-manga,Mangá (Node),stylize,effect,c25a98f0689b5c36779c54d88cbe38f3ac759ce1f0c6e4ce9da037887480800d,0,needs-file-specific-scope-review
+assets/effects/node-mirror.xml,nova.effect.node-mirror,Espelho (Node),distort,effect,f23fd243bcfb2ffa3e1aef0ffc5487eea17f37fdde809e146aae1a4fdd56ed12,0,needs-file-specific-scope-review
+assets/effects/node-pinch-bulge.xml,nova.effect.node-pinch-bulge,Pinçar e expandir (Node),distort,effect,b48aed4a2a18d77c2d2e52eb4375a3d6c4e041e1f01351104ee97f806fe2007e,0,needs-file-specific-scope-review
+assets/effects/node-polar-coordinates.xml,nova.effect.node-polar-coordinates,Coordenadas polares (Node),distort,effect,a4b4777cd069b4c12645590e26da6f82968732008cec6c25927e42049da117ad,0,needs-file-specific-scope-review
+assets/effects/node-ray-blur.xml,nova.effect.node-ray-blur,Desfoque radial (Node),blur,effect,56a58302dc4b93c44800e9017e5244cde4bdc3e5fc451b8de1711623a9685cc0,0,needs-file-specific-scope-review
+assets/effects/node-spin-blur.xml,nova.effect.node-spin-blur,Desfoque giratório (Node),blur,effect,a369ae6f875ea09b40f4bba4ec7b904b6fea51c6d09448bd9cc435f783df2197,0,needs-file-specific-scope-review
+assets/effects/node-twirl.xml,nova.effect.node-twirl,Turbilhão (Node),distort,effect,5c228c111419d62da9a184bcd9692b507fe97e41813b549e00db670963d0b8e5,0,needs-file-specific-scope-review
+assets/effects/node-twist.xml,nova.effect.node-twist,Torção (Node),distort,effect,ad14ba43fb412ef38423a72b03834d4ca98bdfa37f5fc88d97904ec4116b6f6a,0,needs-file-specific-scope-review
+assets/effects/noise.xml,nova.effect.noise,Ruído,stylize,effect,1661345ca739c198a660aa2d7c40b5192504901710e7d638219012c8fc63560d,0,needs-file-specific-scope-review
+assets/effects/novatwitch.xml,nova.effect.novatwitch,NovaTwitch,stylize,effect,e4d5e8ef6d0b5e5f389b4ed246e30bb8cd58a39e27b4350e5f7c56df6b2fb0fd,0,needs-file-specific-scope-review
+assets/effects/oceano.xml,nova.effect.oceano,Oceano,generate,effect,adc104a4695cc865b59156cc82c0eeddc72e9e50b6973bd6e892732b8054a154,0,needs-file-specific-scope-review
+assets/effects/offset.xml,nova.effect.offset,Deslocar (Offset),distort,effect,441008a92d6125774efc857108d99f4568217f7f0765edc894835e85fba6fed0,0,needs-file-specific-scope-review
+assets/effects/oscillate.xml,nova.effect.oscillate,"Oscilar (Nova, até a 0.560)",distort,effect,1ff9e968fffea38b21b9235c9f7f913a98ae0fcf028802a59800dcb5ef53e50c,0,needs-file-specific-scope-review
+assets/effects/outline.xml,nova.effect.outline,Contorno,stylize,effect,bdf1026c54879a02b26c74a0c9ebcc7b12b5f3a65103860f1545529b57069ce7,0,needs-file-specific-scope-review
+assets/effects/page-turn.xml,nova.effect.pageturn,Virar página,matte,effect,69216e11e053710b24860a12ebded8d8f8be54a7c1360058221ad8e615000322,0,needs-file-specific-scope-review
+assets/effects/pixelate.xml,nova.effect.pixelate,Pixelizar,stylize,effect,4463cf6e336ca07c648983ad0b13b7dfb1b5fa8a4bead99001ca5279d5f224be,0,needs-file-specific-scope-review
+assets/effects/polar-coordinates.xml,nova.effect.polarcoordinates,Coordenadas polares,distort,effect,bbfcaca6adb9403e1488a81d274fc11c61e05250c7c6fec60c16daca18ef97d3,0,needs-file-specific-scope-review
+assets/effects/posterize-time.xml,nova.effect.posterizetime,Posterizar tempo,stylize,effect,692afcefc913eda0ba563f01ece8547a2babb72bb35fd54f31e4e3387474cffa,0,needs-file-specific-scope-review
+assets/effects/posterize.xml,nova.effect.posterize,Posterizar,stylize,effect,f6509616cb08f47d7b0c57c22e3d613dd2e84f8d4f9a6d417f9385c154f22f45,0,needs-file-specific-scope-review
+assets/effects/pseudocolor.xml,nova.effect.pseudocolor,PseudoColor,color,effect,49feae03978e75f606d9d9b388992ddbae2601b6cc0bf9ed39a83e75226a8819,0,needs-file-specific-scope-review
+assets/effects/radial-blur.xml,nova.effect.radialblur,Desfoque radial,blur,effect,f546c23dcbff45a724362abd52b54a9632578e0e4d13edd45433404f07ee5807,0,needs-file-specific-scope-review
+assets/effects/radial-wipe.xml,nova.effect.radialwipe,Cortina radial,matte,effect,775b4a4ef25253a31fa06b4cc00026ec7584a6aa458ecc88c78a49855dfa795a,0,needs-file-specific-scope-review
+assets/effects/raios-divinos.xml,nova.effect.raiosdivinos,Raios divinos,stylize,effect,59e6d60b83edd53d36a2538f3890253610aad5e946c049254de2d79118da65b2,7,needs-file-specific-scope-review
+assets/effects/repeat-radial.xml,nova.effect.repeatradial,Repetir em volta,repeat,effect,b05842c498a8beb1c61b8b723fc503f18662fa15a72a118c405ebde191251a27,0,needs-file-specific-scope-review
+assets/effects/replace-color.xml,nova.effect.replacecolor,Trocar uma cor,color,effect,a7c0af59e5b8573e32952a82f1a194d59227e85dd28e303e5fe7f5b92914b0c3,0,needs-file-specific-scope-review
+assets/effects/rgb-split.xml,nova.effect.rgbsplit,Separação RGB,distort,effect,7d4dc7816c275f7ab34308bc75c791f953b11aa107f94978df3898765f1eefbe,0,needs-file-specific-scope-review
+assets/effects/ripple.xml,nova.effect.ripple,Ondulação,distort,effect,74df78ff9608ac59bc71b16a003a179661fc4b8085a2a2e13e2e9c48e837147a,0,needs-file-specific-scope-review
+assets/effects/roughen-edges.xml,nova.effect.roughenedges,Bordas rasgadas,stylize,effect,338b8ebd34db344f2a5868e85b6453e18352afb7181cd64b5399d8d632c9970c,0,needs-file-specific-scope-review
+assets/effects/sapphire-blur-mo-curves.xml,nova.effect.sblurmocurves,S_BlurMoCurves,blur,effect,8b6674f89eecd9a2b421c3f88de73d663409a430fad9c2558a85e79f745f153b,0,needs-file-specific-scope-review
+assets/effects/sapphire-dissolve-shake.xml,nova.effect.sdissolveshake,S_DissolveShake,distort,effect,a0cae9e26bcf82de6fea09397ff15e69d516e92278c92dd06c926ac5147b9678,0,needs-file-specific-scope-review
+assets/effects/sapphire-distort-chroma.xml,nova.effect.sdistortchroma,S_DistortChroma,distort,effect,0450a01aea20a8441ca18879140ed96c08f5cb7be6802eac3b9d93616f18bd11,0,needs-file-specific-scope-review
+assets/effects/sapphire-edge-colorize.xml,nova.effect.sedgecolorize,S_EdgeColorize,stylize,effect,9a3fa23fd8a1794157b6ef5c7480a83d9c46fedac7fb80b92f4dd3e043325cd9,0,needs-file-specific-scope-review
+assets/effects/sapphire-emboss.xml,nova.effect.semboss,S_Emboss,stylize,effect,90c223d0a603bdbf3e81b799a70d5bffce17ac41cfb184abf12a30bd659fefed,0,needs-file-specific-scope-review
+assets/effects/sapphire-film-damage.xml,nova.effect.sfilmdamage,S_FilmDamage,stylize,effect,568825f251e1c52ea7fc106b4e03cfd7c3e6f065ab6fd8078a2f9ea36b2d4bbf,0,needs-file-specific-scope-review
+assets/effects/sapphire-flicker.xml,nova.effect.sflicker,S_Flicker,color,effect,4fe640741e06acd4fb7ce8fce1c3f9dd5133350194c07a66315e7b29115ee7c0,0,needs-file-specific-scope-review
+assets/effects/sapphire-glow-aura.xml,nova.effect.sglowaura,S_GlowAura,stylize,effect,c093387093633dffc67607739b1806ede60180d2f7b8b80fcdaa36b48df3d529,0,needs-file-specific-scope-review
+assets/effects/sapphire-glow.xml,nova.effect.sglow,S_Glow,stylize,effect,ab39b418bcd158a784b13c659c3bf47a19eefb50b5d0ee16c521efc146941c2b,0,needs-file-specific-scope-review
+assets/effects/sapphire-gradient.xml,nova.effect.sgradient,S_Gradient,procedural,effect,aa0f6303bc31764ba66781275afffee7f3f9c9a180d8176a79f594c6b54cb104,0,needs-file-specific-scope-review
+assets/effects/sapphire-half-tone.xml,nova.effect.shalftone,S_HalfTone,stylize,effect,e9334bd5f421c1cc8deccfe2802cd47fff1bc97cf72b246570470355e13abb87,0,needs-file-specific-scope-review
+assets/effects/sapphire-hotspots.xml,nova.effect.shotspots,S_Hotspots,stylize,effect,08deec289056dd0d144b58ac20c028329eaa8661905028fc4b03230fc2fe9059,0,needs-file-specific-scope-review
+assets/effects/sapphire-invert.xml,nova.effect.sinvert,S_Invert,color,effect,04bd053776c0d643b275d81ee4b6d6a4080ab468a900ace9576c6d4f9d5da863,0,needs-file-specific-scope-review
+assets/effects/sapphire-math-ops.xml,nova.effect.smathops,S_MathOps,color,effect,bcfd40ba4298982470a276fbbebc754f7154ff1feac422e15380915b4ca6ee9b,0,needs-file-specific-scope-review
+assets/effects/sapphire-psyko-blobs.xml,nova.effect.spsykoblobs,S_PsykoBlobs,generate,effect,3351bbd5952a4f0841b753536628bb69ce4455fe665c3c6ba66d000f8ed73a20,0,needs-file-specific-scope-review
+assets/effects/sapphire-psyko-stripes.xml,nova.effect.spsykostripes,S_PsykoStripes,generate,effect,7f4c754dc2a60c5f164a9f1e92e931fd2dd4a94d6074b69f4965a6431bd508a4,0,needs-file-specific-scope-review
+assets/effects/sapphire-shake.xml,nova.effect.sshake,S_Shake,distort,effect,624cefaf260939a35b76fc24717f524bb13a5f93ed7f9dbab1cc05d7c82e39c3,0,needs-file-specific-scope-review
+assets/effects/sapphire-sharpen.xml,nova.effect.ssharpen,S_Sharpen,stylize,effect,c76e561f85395833c3143567d3f16f9ede3e2638c87fb5a9cc092d8152d8f9b2,0,needs-file-specific-scope-review
+assets/effects/sapphire-texture-plasma.xml,nova.effect.stextureplasma,S_TexturePlasma,procedural,effect,ff159a3cf9528679c73775c81faca7355259be6337d9d5d9bf66451e73643535,0,needs-file-specific-scope-review
+assets/effects/sapphire-time-slice.xml,nova.effect.stimeslice,S_TimeSlice,stylize,effect,c016af4e78eca9f3e393f51c7776bf603095ff69fce12a085f1788d9b18d89d4,0,needs-file-specific-scope-review
+assets/effects/sapphire-warp-bubble.xml,nova.effect.swarpbubble,S_WarpBubble,distort,effect,c69ec281499823ed9e7bafd4cdc9c9cadfd8b266a52807ace4a537ece306fcfd,0,needs-file-specific-scope-review
+assets/effects/scanlines-pro.xml,nova.effect.scanlinespro,Scanlines Pro,stylize,effect,32075fa9035b1affe5395c1029ccf3362059e0a4eb802ef8c7f454c3497ec931,12,needs-file-specific-scope-review
+assets/effects/selective-color.xml,nova.effect.selectivecolor,Cor seletiva,color,effect,ed3487b3ff99d7162df9f03196af4f1c1a842fa0d0da6317ace134fe667b69cc,0,needs-file-specific-scope-review
+assets/effects/set-matte.xml,nova.effect.setmatte,Definir matte,matte,effect,801f9b54ce21e32dc4c8c4b0a6f1ea97a87287afe2968a74b68952b2c894e9ea,0,needs-file-specific-scope-review
+assets/effects/sglint.xml,nova.effect.sglint,S_Glint,stylize,effect,a29b1249a9eb75d008470c49e5239ed34163a8169d9b4f6ae17c8207320d19d9,0,needs-file-specific-scope-review
+assets/effects/shadow-highlight.xml,nova.effect.shadowhighlight,Sombras e luzes,color,effect,de5c1d4b210fa1991bc93153fbc7a9c775468264e4dc785bd47addf9db9afbdb,0,needs-file-specific-scope-review
+assets/effects/shadowstudio.xml,nova.effect.shadowstudio,Shadow Studio,stylize,effect,744882066a2b992f5989202b31e3e85c69fe1d2a5fb3f615456e8d99cccafcb4,0,needs-file-specific-scope-review
+assets/effects/sharpen.xml,nova.effect.sharpen,Nitidez,stylize,effect,ac2c0714f5a3e18ec6fc9fc59dfefcb9bd2ae4aa4d6db832642b26ba7c865bd6,0,needs-file-specific-scope-review
+assets/effects/shatter.xml,nova.effect.shatter,Estilhaçar,stylize,effect,77e0a847064219ffd143aeedea1f99e257b42f0f4297ca79111d294c954cb4d0,0,needs-file-specific-scope-review
+assets/effects/shockring.xml,nova.effect.shockring,YY ShockRing,generate,effect,90ebced4c136dd2f52e0841441649cb2f35241259d990503e5db8e69bdf0b76c,0,needs-file-specific-scope-review
+assets/effects/signal.xml,nova.effect.signal,Signal,stylize,effect,12fb9926a39b20cef57ce17dde64d914e6c4bcff5cde729c71a777f6846be0a9,0,needs-file-specific-scope-review
+assets/effects/solarize.xml,nova.effect.solarize,Solarizar,color,effect,34598e8cd63a2222bdb66560ec068dc580fac832f56fec019a4fdd728306c849,0,needs-file-specific-scope-review
+assets/effects/sphere.xml,nova.effect.sphere,Esfera,distort,effect,319d7f55ca716870f9ece41e412fb7e828990071894507a148beffbd75e0a42b,0,needs-file-specific-scope-review
+assets/effects/spill-suppress.xml,nova.effect.spillsuppress,Limpar derrame,matte,effect,99cd76779fc7afdf99cf8e1e981db8b7aab6956eb260c149e5fef53c845fae67,0,needs-file-specific-scope-review
+assets/effects/starfield.xml,nova.effect.starfield,Campo de estrelas,procedural,effect,b309675401816b90911b5ff5d10f80e1cb8cee770ece70b04eb40944c148d7b8,1,needs-file-specific-scope-review
+assets/effects/streaks.xml,nova.effect.streaks,Rastros,stylize,effect,28759a80f825b3c17e298af6ffc5f5e8f8d3f66cb8748a5d6fb81ddf99faf0cb,0,needs-file-specific-scope-review
+assets/effects/threshold.xml,nova.effect.threshold,Threshold,color,effect,fb603792e49190eb87d0dc124f0f6cf321df022bf238f61fc3c2ed98b6244b57,0,needs-file-specific-scope-review
+assets/effects/tile-rotation.xml,nova.effect.tilerotation,Ladrilho com rotação,repeat,effect,aeddd82175a941445c28ae552f95ba49d3467f07195d1814277d7fab8456abc2,0,needs-file-specific-scope-review
+assets/effects/tile.xml,nova.effect.tile,Repetir,repeat,effect,6cfbc293d162a3121e3d6885be04e95803c04b71504df2e9a196ea3189f5a886,0,needs-file-specific-scope-review
+assets/effects/tonecraft.xml,nova.effect.tonecraft,ToneCraft,stylize,effect,1e3c39c2886002468e8c1087216bb8601744cf792e9449e5579dd8a9ae0f2660,0,needs-file-specific-scope-review
+assets/effects/transform.xml,nova.effect.transform,Transformar (Transform),distort,effect,e1a0644caf676730c12288b1ffe31f60b8f56dd362c52291cc7a314f99bf0fa1,0,needs-file-specific-scope-review
+assets/effects/tubo-crt.xml,nova.effect.tubocrt,Tubo de imagem,stylize,effect,780e5aebe9590fc2f6b97c43e8f02a8927e5f37ca1cfef4bd7e8ec4abf410a09,0,needs-file-specific-scope-review
+assets/effects/tunnel.xml,nova.effect.tunnel,Túnel,distort,effect,3439ed995a46f5ba27cf2ae7d880535c8fb2871d453ad2811997c5db0f9ca042,0,needs-file-specific-scope-review
+assets/effects/turbulent-displace.xml,nova.effect.turbulentdisplace,Deslocamento turbulento,distort,effect,15bcfb5229fe7156503aba8f42b948feb4196740150785e4bdc9e37408821cf0,0,needs-file-specific-scope-review
+assets/effects/tv-damage.xml,nova.effect.tvdamage,TV Danificada,stylize,effect,69839c834a16a28292051223c88b8d45fa6815bddbfe478882f636c35286ae8a,10,needs-file-specific-scope-review
+assets/effects/twirl.xml,nova.effect.twirl,Redemoinho,distort,effect,4df723c5a08f235db2431147324eeeb6b240ee05623493bd8097902d5e4f2b0c,0,needs-file-specific-scope-review
+assets/effects/twixtor.xml,nova.effect.twixtor,Twixtor,time,effect,3ffc2aee899ce148f3e011dd565ca8ba9331350d66b99046d83625d3ba5ce0f5,0,needs-file-specific-scope-review
+assets/effects/uni-chromatic-aberration.xml,nova.effect.unichromab,uni.Chromatic Aberration,distort,effect,c9c2e6bd6e214c71e7ad530cfbe79116a5625b8cdcf2e73e148703089c9fd638,0,needs-file-specific-scope-review
+assets/effects/uni-vhs.xml,nova.effect.univhs,uni.VHS,stylize,effect,ca9337f2d6cc2e41b42a4a5ee03842bd2c23d81a68fc22e2fc5f19c0e9380678,0,needs-file-specific-scope-review
+assets/effects/unmult.xml,nova.effect.unmult,Unmult,matte,effect,80dd625f03c1e8c63644e86bdc628ebc800827d7cada480d60472d93e8413ac4,0,needs-file-specific-scope-review
+assets/effects/unsharp-mask.xml,nova.effect.unsharpmask,Máscara de nitidez,stylize,effect,94899a442ff8d3a18c7f67c67e05c29890abfa2b5d3c90a1cc76e97638291507,0,needs-file-specific-scope-review
+assets/effects/vhs.xml,nova.effect.vhs,VHS,stylize,effect,c9239a8fc6714ececf22ca4f003573e98ef47ae2d77b12534d43b7a843709852,12,needs-file-specific-scope-review
+assets/effects/vibrance.xml,nova.effect.vibrance,Vibração,color,effect,2ec993369a6518d91a4e766b493678387d75dbae1865433f2342de77d1aaf4d9,0,needs-file-specific-scope-review
+assets/effects/vignette.xml,nova.effect.vignette,Vinheta,color,effect,346f246043245352e04743f2c77b0fc27658385084b6e977bc5964a91107f4c8,0,needs-file-specific-scope-review
+assets/effects/voxelsorter.xml,nova.effect.voxelsorter,Voxel Sorter,stylize,effect,0393b5ff07d98cadda3d7de87c7c136d1cbd4f9bb8bf4f23649511637199f921,0,needs-file-specific-scope-review
+assets/effects/voxpattern.xml,nova.effect.voxpattern,Vox Pattern,generate,effect,9ab6f6c10d68b41a9ef2702053c5a9523e6c5efe5738a1df9b5f1e5b2922daad,0,needs-file-specific-scope-review
+assets/effects/wave-warp.xml,nova.effect.wavewarp,Onda,distort,effect,791ac4178e9efd0aec82684b85b07314347c65be207bd94ba1b8eb3f866d976b,0,needs-file-specific-scope-review

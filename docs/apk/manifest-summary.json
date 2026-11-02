@@ -1,0 +1,198 @@
+{
+  "package": "com.novavision.editor.apk",
+  "versionName": "0.894.0",
+  "versionCode": "913",
+  "sdk": {
+    "{http://schemas.android.com/apk/res/android}minSdkVersion": "26",
+    "{http://schemas.android.com/apk/res/android}targetSdkVersion": "37"
+  },
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_AUDIO",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WAKE_LOCK",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.novavision.editor.apk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "components": [
+    {
+      "type": "activity",
+      "name": "com.novaeditor.MainActivity",
+      "exported": "true",
+      "intentActions": [
+        "android.intent.action.MAIN",
+        "android.intent.action.VIEW",
+        "android.intent.action.VIEW",
+        "android.intent.action.SEND",
+        "android.intent.action.VIEW",
+        "android.intent.action.VIEW",
+        "android.intent.action.VIEW"
+      ]
+    },
+    {
+      "type": "provider",
+      "name": "androidx.core.content.FileProvider",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "com.novaeditor.export.ServicoDeExportacao",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "activity",
+      "name": "androidx.credentials.playservices.HiddenActivity",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "activity",
+      "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+      "exported": "true",
+      "intentActions": []
+    },
+    {
+      "type": "activity",
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "provider",
+      "name": "androidx.startup.InitializationProvider",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "exported": "true",
+      "intentActions": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.foreground.SystemForegroundService",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "exported": "false",
+      "intentActions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "exported": "false",
+      "intentActions": [
+        "android.intent.action.BATTERY_OKAY",
+        "android.intent.action.BATTERY_LOW"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "exported": "false",
+      "intentActions": [
+        "android.intent.action.DEVICE_STORAGE_LOW",
+        "android.intent.action.DEVICE_STORAGE_OK"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "exported": "false",
+      "intentActions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "exported": "false",
+      "intentActions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.TIME_SET",
+        "android.intent.action.TIMEZONE_CHANGED"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "exported": "false",
+      "intentActions": [
+        "androidx.work.impl.background.systemalarm.UpdateProxies"
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "exported": "true",
+      "intentActions": [
+        "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      ]
+    },
+    {
+      "type": "service",
+      "name": "androidx.room.MultiInstanceInvalidationService",
+      "exported": "false",
+      "intentActions": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "exported": "true",
+      "intentActions": [
+        "androidx.profileinstaller.action.INSTALL_PROFILE",
+        "androidx.profileinstaller.action.SKIP_FILE",
+        "androidx.profileinstaller.action.SAVE_PROFILE",
+        "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      ]
+    },
+    {
+      "type": "activity",
+      "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "exported": "false",
+      "intentActions": []
+    }
+  ]
+}

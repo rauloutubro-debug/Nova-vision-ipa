@@ -1,0 +1,60 @@
+{
+  "asset_groups": {
+    "dexopt": 2,
+    "bccdb": 1,
+    "effects": 350,
+    "element3d": 20,
+    "extensoes": 6,
+    "filmdamage": 1,
+    "flicker": 1,
+    "fonts": 47,
+    "grunge": 2,
+    "i18n": 1,
+    "ia": 1,
+    "licencas": 1,
+    "looks": 5,
+    "mblooks": 39,
+    "opticalflares": 2,
+    "presets": 203,
+    "ransom-letters": 360,
+    "shake": 1,
+    "swarpbubble": 10,
+    "templates": 12,
+    "unichromab": 8,
+    "univhs": 12,
+    "vhs": 34,
+    "vibrance": 1,
+    "wavewarp": 1
+  },
+  "effect_xml_parsed": 345,
+  "effect_ids_unique": 345,
+  "effect_content_hashes_unique": 345,
+  "effect_categories": {
+    "stylize": 90,
+    "procedural": 21,
+    "expressao": 5,
+    "color": 51,
+    "blur": 28,
+    "distort": 66,
+    "matte": 21,
+    "generate": 13,
+    "opacity": 6,
+    "3d": 6,
+    "repeat": 5,
+    "text": 4,
+    "other": 1,
+    "cc": 5,
+    "looks": 22,
+    "time": 1
+  },
+  "nested_preset_elements": 95,
+  "preset_directory_extensions": {
+    ".jpg": 203
+  },
+  "templates_parsed": 12,
+  "failures": [],
+  "limitations": [
+    "Declarative entries and names do not prove working UI, renderers or unique functional presets.",
+    "No asset/source content is copied into the app by this tool."
+  ]
+}

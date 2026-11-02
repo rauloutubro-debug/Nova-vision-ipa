@@ -1,0 +1,20 @@
+{
+  "apk": "NovaEditor-0.894.0.apk",
+  "sha256": "29a1573452bb6ec79693ba2bbce3fb71615533e6af750ddb24fbf1c44152d25f",
+  "files": 1305,
+  "categories": {
+    "other": 614,
+    "android-bytecode": 2,
+    "native-library": 18,
+    "effect-preset-template-candidate": 610,
+    "possible-model-or-binary": 6,
+    "license-candidate": 12,
+    "font": 43
+  },
+  "limitations": [
+    "Categories are filename heuristics, not verified features or exact effect counts.",
+    "Binary AndroidManifest.xml and DEX require additional static analysis.",
+    "Screens/accessibility require authorized runtime observation.",
+    "No resource is approved for reuse by this inventory."
+  ]
+}

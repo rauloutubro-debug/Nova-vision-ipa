@@ -2,7 +2,7 @@
 
 Código SwiftUI/AVFoundation/Core Image/Metal para um editor local de uma faixa, com importação pelo app Arquivos, timeline, divisão/trim, reordenação, prévia, efeitos simples e exportação MP4 pelo menu de compartilhamento. O projeto único é salvo localmente. Alvo configurado: iPhone/iPad, iOS 17 ou posterior.
 
-**Estado:** implementação inicial, ainda sem compilação Xcode ou teste iOS. Este ambiente é Linux e não produziu IPA real. O APK de referência não estava disponível; nenhuma tela, contagem, licença ou paridade com NovaEditor 0.894.0 foi verificada. Nenhum recurso dele foi incluído.
+**Estado:** implementação inicial, ainda sem compilação Xcode ou teste iOS. Este ambiente é Linux e não produziu IPA real. O APK da release foi inspecionado estaticamente: identidade 0.894.0, 350 arquivos na pasta de efeitos e 12 templates confirmados. Ver [relatório e licenças](docs/APK-REPORT.md). Nenhuma tela/paridade foi validada em execução Android e nenhum recurso dele foi incluído.
 
 ## Usar exclusivamente pelo iPad
 
@@ -26,7 +26,7 @@ O projeto Xcode gerado está incluído. O workflow confere sua sincronização, 
 
 ## Referência Android e próximos passos
 
-[Plano de migração e matriz de direitos](docs/MIGRATION.md). Quando o APK estiver acessível:
+[Plano de migração e matriz de direitos](docs/MIGRATION.md). Para repetir a inspeção do APK:
 
 ```sh
 python3 Scripts/inspect_apk.py /caminho/referencia.apk --output analysis/apk

@@ -2,11 +2,11 @@
 
 ## Evidência disponível
 
-Em 2026-11-02 não havia APK, capturas, gravações do aplicativo, repositório de origem ou licença do NovaEditor acessíveis no workspace. A referência à versão 0.894.0 e as estimativas de aproximadamente 350 arquivos de efeitos, mais de 200 presets, VHS, glitches, templates, fontes, Python, QuickJS, ONNX Runtime, RIFE e DEX foram fornecidas pelo solicitante. Não foram confirmadas por inspeção.
+O APK foi disponibilizado na release `Apk` em 2026-11-02 e inspecionado estaticamente. Ver [APK-REPORT](APK-REPORT.md) para hashes, manifesto, contagens corrigidas e avisos encontrados. Foram confirmados 350 arquivos em effects, dos quais 345 XML; os 203 arquivos de presets são JPG. Não há gravações ou execução Android para confirmar telas e funcionalidades acessíveis.
 
-O MVP é uma implementação independente; não foi portado DEX, extraído recurso, copiada interface nem estabelecida equivalência funcional com o aplicativo Android. O nome é provisório e não implica afiliação ou autorização de marca.
+O MVP é uma implementação independente; não foi portado DEX, incorporado recurso, copiada interface nem estabelecida equivalência funcional com o aplicativo Android. O nome é provisório e não implica afiliação ou autorização de marca.
 
-## Inspeção a executar quando o APK estiver disponível
+## Processo de inspeção e verificações pendentes
 
 1. Guardar o APK fora do Git e registrar proveniência e autorização de análise. Executar `python3 Scripts/inspect_apk.py caminho/app.apk --output analysis/apk`. O script registra SHA-256 do APK, caminhos ZIP, tamanhos, CRC e categorias por nomes, sem extração nem execução. Não valida que o APK seja a versão informada.
 2. Decodificar AndroidManifest.xml com ferramentas Android em ambiente autorizado. Registrar package, versionName/versionCode, activities exportadas, permissões, providers e serviços. Activities não demonstram por si só telas visíveis. Fazer análise estática de DEX e bibliotecas somente dentro do escopo autorizado, sem contornar controles de acesso.

@@ -5,7 +5,7 @@
 - Ambiente disponível: Linux, Python 3; sem Swift, Xcode ou SDK iOS.
 - Testes Python das ferramentas: **2 testes passaram** em 2026-11-02, usando fixtures sintéticas (nenhum APK/IPA real).
 - Fontes Swift, compilação Xcode, renderização AVFoundation, testes macOS, instalação ESign e execução iOS: **não executados neste ambiente**.
-- APK, telas, contagens e licenças de recursos: **não inspecionados; arquivo ausente**.
+- APK: **inspeção estática realizada**, com contagens e avisos documentados em [APK-REPORT](APK-REPORT.md). Telas e funções Android não foram verificadas em execução; escopo de direitos por recurso permanece pendente.
 - iOS 17.0 é o alvo mínimo configurado; não é comprovação de compatibilidade em dispositivos.
 
 ## Verificações automáticas preparadas
