@@ -1,0 +1,17 @@
+name: Runner diagnostics
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tooling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Packaging and APK analysis tools
+        run: python3 -m unittest discover -s Tests -p 'test_*.py'
+      - name: Xcode project generation consistency (no iOS compilation)
+        run: |
+          python3 Scripts/generate_project.py
+          git diff --exit-code -- NovaEditor.xcodeproj
