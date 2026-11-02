@@ -1,0 +1,36 @@
+name: iOS unsigned IPA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+      - name: Packaging and inventory tests
+        run: python3 -m unittest discover -s Tests -p 'test_*.py'
+      - name: Check generated project
+        run: |
+          python3 Scripts/generate_project.py
+          git diff --exit-code -- NovaEditor.xcodeproj
+          plutil -lint NovaEditor.xcodeproj/project.pbxproj
+      - name: Timeline and media smoke tests (macOS, not iOS device)
+        run: bash Scripts/test_media.sh
+      - name: Build device app and package unsigned IPA
+        run: bash Scripts/build_unsigned.sh
+      - name: Upload unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: NovaEditor-iOS-unsigned
+          path: build/NovaEditor-iOS-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 14
