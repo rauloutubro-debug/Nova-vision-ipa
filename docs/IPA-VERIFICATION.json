@@ -1,0 +1,14 @@
+{
+  "sha256": "f1922d08500f88edea18555f986d81f8cff48a886e98eed2fa2abfbf00184ba4",
+  "size_bytes": 160305,
+  "bundle_identifier": "org.example.NovaEditor",
+  "bundle_version": "0.1.0",
+  "minimum_ios": "17.0",
+  "platforms": [
+    "iPhoneOS"
+  ],
+  "architecture": "arm64",
+  "mach_o_signature_command": false,
+  "zip_files": 3,
+  "verification": "Static packaging checks only; no iOS execution or ESign signature test."
+}

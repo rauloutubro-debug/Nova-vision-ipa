@@ -2,7 +2,13 @@
 
 Código SwiftUI/AVFoundation/Core Image/Metal para um editor local de uma faixa, com importação pelo app Arquivos, timeline, divisão/trim, reordenação, prévia, efeitos simples e exportação MP4 pelo menu de compartilhamento. O projeto único é salvo localmente. Alvo configurado: iPhone/iPad, iOS 17 ou posterior.
 
-**Estado:** implementação inicial, ainda sem compilação Xcode ou teste iOS. Este ambiente é Linux e não produziu IPA real. O APK da release foi inspecionado estaticamente: identidade 0.894.0, 350 arquivos na pasta de efeitos e 12 templates confirmados. Ver [relatório e licenças](docs/APK-REPORT.md). Nenhuma tela/paridade foi validada em execução Android e nenhum recurso dele foi incluído.
+**Estado:** MVP compilado para iOS físico, sem assinatura, com Xcode 16.4 no GitHub Actions. Testes de timeline e renderização/exportação em macOS passaram. Assinatura ESign e execução em iPhone/iPad ainda não foram testadas. O APK da release foi inspecionado estaticamente: identidade 0.894.0, 350 arquivos na pasta de efeitos e 12 templates confirmados. Ver [relatório e licenças](docs/APK-REPORT.md). Nenhuma tela/paridade foi validada em execução Android e nenhum recurso dele foi incluído.
+
+## IPA desta build
+
+[Baixar o artefato NovaEditor-iOS-unsigned](https://github.com/rauloutubro-debug/Nova-vision-ipa/actions/runs/41541928109/artifacts/13187032999) (requer login GitHub; retenção até 2026-11-16). Descompactar o ZIP do artefato no app Arquivos para obter `NovaEditor-iOS-unsigned.ipa`.
+
+Build do commit `9025bc0bb7dfc5f269a5f89134d639c70209242f`, aplicativo MVP `0.1.0`, alvo configurado iOS 17.0. [Evidências](docs/VALIDATION.md) e [verificação do IPA](docs/IPA-VERIFICATION.json). Não é uma conversão binária do APK nem uma versão de paridade comprovada.
 
 ## Usar exclusivamente pelo iPad
 
