@@ -22,8 +22,7 @@ enum MediaEngine {
         let composition = AVMutableComposition()
         guard let videoTrack = composition.addMutableTrack(withMediaType: .video,
                 preferredTrackID: kCMPersistentTrackID_Invalid) else { throw MediaError.noVideo }
-        let audioTrack = composition.addMutableTrack(withMediaType: .audio,
-                preferredTrackID: kCMPersistentTrackID_Invalid)
+        var audioTrack: AVMutableCompositionTrack?
         var instructions: [ClipInstruction] = []
         var cursor = CMTime.zero
         var canvas = CGSize(width: 1280, height: 720)
@@ -40,11 +39,16 @@ enum MediaEngine {
             let range = CMTimeRange(start: CMTime(seconds: clip.start, preferredTimescale: 600),
                                     duration: CMTime(seconds: clip.duration, preferredTimescale: 600))
             try videoTrack.insertTimeRange(range, of: source, at: cursor)
-            if let audio = try await asset.loadTracks(withMediaType: .audio).first, let target = audioTrack {
+            if let audio = try await asset.loadTracks(withMediaType: .audio).first {
                 // The audio track can start late or finish before the video. Preserve its relative offset.
                 let audioRange = try await audio.load(.timeRange)
                 let intersection = CMTimeRangeGetIntersection(range, otherRange: audioRange)
                 if intersection.isValid, intersection.duration > .zero {
+                    if audioTrack == nil {
+                        audioTrack = composition.addMutableTrack(withMediaType: .audio,
+                            preferredTrackID: kCMPersistentTrackID_Invalid)
+                    }
+                    guard let target = audioTrack else { throw MediaError.exportUnavailable }
                     let audioCursor = cursor + intersection.start - range.start
                     try target.insertTimeRange(intersection, of: audio, at: audioCursor)
                 }

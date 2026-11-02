@@ -1,4 +1,5 @@
 import Foundation
+import Darwin
 import AVFoundation
 import CoreImage
 
@@ -41,7 +42,19 @@ struct MediaSmokeTests {
         try check(writer.status == .completed, "Fixture finalization failed")
     }
 
-    static func main() async throws {
+    static func log(_ message: String) {
+        FileHandle.standardError.write(Data((message + "\n").utf8))
+    }
+
+    static func main() async {
+        do { try await run() }
+        catch {
+            log("FAIL: \(String(reflecting: error))")
+            exit(EXIT_FAILURE)
+        }
+    }
+
+    static func run() async throws {
         let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
         try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
         defer { try? FileManager.default.removeItem(at: root) }
@@ -64,16 +77,20 @@ struct MediaSmokeTests {
         for rotated in [false, true] {
             let source = root.appendingPathComponent("source.mov")
             try? FileManager.default.removeItem(at: source)
+            log("STAGE: create fixture, rotated=\(rotated)")
             try await fixture(at: source, rotated: rotated)
             var first = left
             first.effect = .monochrome
             var second = right
             second.effect = .sepia
+            log("STAGE: compose fixture, rotated=\(rotated)")
             let edit = try await MediaEngine.build([first, second], directory: root)
             let expectedSize = rotated ? CGSize(width: 720, height: 1280) : CGSize(width: 1280, height: 720)
             try check(edit.video.renderSize == expectedSize, "Orientation canvas incorrect")
             let output = root.appendingPathComponent("out-\(rotated).mp4")
+            log("STAGE: export fixture, rotated=\(rotated)")
             try await MediaEngine.export(edit, to: output)
+            log("STAGE: decode export, rotated=\(rotated)")
             let exported = AVURLAsset(url: output)
             let duration = try await exported.load(.duration).seconds
             try check(abs(duration - 1.6) < 0.08, "Export duration changed")

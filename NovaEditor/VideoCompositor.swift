@@ -24,10 +24,10 @@ final class ClipInstruction: NSObject, AVVideoCompositionInstructionProtocol {
 }
 
 final class VideoCompositor: NSObject, AVVideoCompositing {
-    var sourcePixelBufferAttributes: [String: Any]? {
+    var sourcePixelBufferAttributes: [String: any Sendable]? {
         [kCVPixelBufferPixelFormatTypeKey as String: kCVPixelFormatType_32BGRA]
     }
-    var requiredPixelBufferAttributesForRenderContext: [String: Any] {
+    var requiredPixelBufferAttributesForRenderContext: [String: any Sendable] {
         [kCVPixelBufferPixelFormatTypeKey as String: kCVPixelFormatType_32BGRA,
          kCVPixelBufferMetalCompatibilityKey as String: true]
     }
